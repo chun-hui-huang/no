@@ -243,7 +243,7 @@ table {
     margin: -350px 0 350px 1000px ;
 }
 .text{
-    padding: 120px;
+    padding: 200px;
     display: flex;
     justify-content: space-around;
 }
@@ -253,10 +253,31 @@ table {
 .text p{
     align-items: center;
     justify-content: center;
-    margin: auto 50px;
+    margin: auto 20px;
 
 }
 
+/*max-width:1024*/
+@media(max-width:1024px){
+    .container p{
+        font-size: 16px;
+    }
+    
+    .frame img{
+        max-width: 600px;
+    }
+    .footer{
+        padding: 30px 20px;
+    }
+    .logo{
+        width: 150px;
+        margin: -200px 0 200px 800px ;
+    }
+    .content img{
+        max-width: 350px;
+        height: 0 auto;
+    }
+}
 
 /*max-width:768*/
 @media(max-width:768px){
