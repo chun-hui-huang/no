@@ -1,0 +1,464 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------*/
+@font-face{
+    font-family: 'burnfont-1.0';
+    src: local(burnfont)
+         url('../font/burnfont-1.0.ttf')format("truetype"),
+         url('../font/burnfont-1.0.woff')format("woff")
+}
+/*layout*/
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+}
+.container p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 12px;
+}
+.header .logo{
+    margin-left: 70px;
+}
+.header .logo img{
+    max-width: 100px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+ul a{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.concept{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.drop_down{
+    display: none;
+    position: relative;
+    position: absolute;
+    top:75px;
+    right: 290px;
+    border: #000 solid 1px;
+    background-color: #fff;
+}
+
+.drop_down a{
+    display: block;
+    font-size: 20px;
+    color:#000;
+    text-decoration: none;
+    padding: 15px 0px;
+    align-items: center;
+    text-align: center;
+}
+.concept:hover .drop_down{
+    display: block;
+}
+.drop_down a:hover{
+    
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    background-color: #000;
+}
+.footer{
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    margin-top: 100px;
+    margin-bottom: -200px;
+}
+.footer p{
+    font-size: 12px;
+    color:#fff;
+}
+.footer a{
+    margin: 0 5px;
+}
+.footer img{
+    max-width: 30px;
+}
+.banner{
+    margin: 0 auto;
+    align-items: center;}
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+.bannertext{
+    width: 30%;
+    margin: -30% 0 40% 37%;
+}
+/*-------------*/
+.content{
+    max-width: 700px;
+    margin: 0 auto;
+    
+}
+.frameup{
+    margin-left: 0px;
+}
+.frameup img{
+    width: 650px;
+}
+.framedown{
+    margin: -100px 0 0 0px;
+}
+.framedown img{
+    width: 650px;
+}
+.name{
+    width: 180px;
+    margin: -1000px 0 1000px 0;
+}
+.mainimg{
+    max-width: 600px;
+    margin: -1100px 0 1100px 0;
+}
+.disname{
+    margin: -1250px 0 1250px 480px;
+}
+.description{
+    margin-top: -950px;
+    margin-left: 80px;
+    margin-bottom: 950px;
+    
+}
+.one{
+    display: flex;
+    margin: 0 80px 0 -80px;
+}
+.desleftone{
+    width: 250px;
+    padding: 18px;
+    margin-right: 50px;
+}
+.desleftone h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.desrightoneb{
+    width: 260px;
+    height: 126px;
+    border: 2px solid #000;
+    margin-top: -131px;
+    margin-left: -2px;
+}
+.two{
+    display: flex;
+    margin: 50px 80px 0 -80px;
+}
+.desrighttwo{
+    width: 250px;
+    padding: 18px;
+    margin-left: 75px;
+}
+
+.desrighttwo h2{
+    font-size: 18px;
+    font-weight: bold;
+}
+.deslefttwo img{
+    margin: 5px 25px 0 0px;
+}
+.deslefttwob{
+    width: 269px;
+    height: 126px;
+    border: 2px solid #000;
+    margin-top: -131px;
+    margin-left: -2px;
+}
+.three{
+    margin: 50px 85px 100px -85px;
+}
+.three img{
+    margin-left: 320px;
+}
+.threeb{
+    width: 270px;
+    height: 125px;
+    border: 2px solid #000;
+    margin-top: -131px;
+    margin-left: 318px;
+}
+.page{
+    margin-top: -700px;
+    
+}
+.arrowlast a{
+    color: #000;
+}
+.arrowlast a:hover{
+    color: #BCBCBC;
+}
+.last{
+    margin: 3px 13px 3px 3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 17.3px 10px 0;
+    border-color: transparent #000 transparent transparent;
+
+}
+.last:hover{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 17.3px 10px 0;
+    border-color: transparent transparent transparent #BCBCBC;
+}
+.arrownext a{
+    color: #000;
+}
+.arrownext a:hover{
+    color: #BCBCBC;
+}
+.next:hover{
+    
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 17.3px;
+    border-color: transparent transparent transparent #BCBCBC;
+}
+
+.next{
+    margin: 3px 13px 3px 3px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 17.3px;
+    border-color: transparent transparent transparent #000;
+}
+.numberclick a{
+    color: #fff;
+    font-size: 16px;
+    margin: 3px;
+    padding: 5px 7px;
+    background-color: black;
+    border-radius: 5px;
+}
+.number a{
+    color: #000;
+    font-size: 16px;
+    margin: 3px;
+    padding: 5px 7px;
+}
+.number a:hover{
+    color: #fff;
+    background-color: black;
+    border-radius: 5px;
+}
+
+/*max-width:1024*/
+@media(max-width:1024px){
+    .container p{
+        font-size: 16px;
+    }
+    .content{
+        max-width: 700px;
+        margin: 0 auto;
+    }
+    .frame img{
+        max-width: 600px;
+    }
+    .footer{
+        padding: 30px 20px;
+    }
+}
+/*-------------------------------*/
+/*max-width:768*/
+@media(max-width:768px){
+    /*layout*/
+        .container{
+            max-width: 700px;
+        }
+        .container p{
+            font-size: 16px;
+        }
+        .header{
+            padding: 10px 0;
+            
+        }
+        .header .logo{
+            margin-left: 20px;
+        }
+        .header .logo img{
+            max-width: 70px;
+            
+        }
+        ul{
+            
+            margin-right: 20px;
+        }
+        ul a{
+            font-size: 16px;
+        }
+        .concept{
+            font-size: 16px;
+        }
+        .drop_down{
+            top:49px;
+            right: 210px;
+        }
+        .drop_down a{
+            font-size: 16px;
+            padding: 10px 0px;
+        }
+        .drop_down a:hover{
+            font-size: 16px;
+            padding: 10px 0px;
+        }
+        .footer{
+            padding: 30px 20px;
+        }
+        .footer a{
+            margin: 0 5px;
+        }
+        .footer img{
+            max-width: 20px;
+        }
+    /*-------------------------------*/
+        .content{
+            max-width: 600px;
+        }
+        .main{
+            margin-top: 100px;
+            margin-left: 30px;
+        }
+        .frame img{
+            max-width: 500px;
+        }
+        .mainimg{
+            max-width: 500px;
+            margin: -860px 0 860px 0;
+        }
+        .name{
+            width: 130px;
+            margin: -900px 0 900px 0;
+        }
+        .disname{
+            max-width: 110px;
+            margin: -1050px 0 1050px 380px;
+        }
+        .description{
+            margin-left: 100px;
+        }
+        .desleftone{
+            width: 220px;
+            padding: 18px;
+            margin-right: 60px;
+        }
+        .desleftone h2{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .desrightoneb{
+            width: 220px;
+            height: 108px;
+            border: 2px solid #000;
+            margin-top: -112px;
+            margin-left: -2px;
+        }
+        .desrightone img{
+            width: 225px;
+        }
+        .desrighttwo{
+            width: 220px;
+            padding: 18px;
+            margin-left: 20px;
+        }
+        .desrighttwo h2{
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .deslefttwo img{
+            margin: 5px 20px 0 0px;
+            width: 221px;
+        }
+        .deslefttwob{
+            width: 220px;
+            height: 104px;
+            border: 2px solid #000;
+            margin-top: -108px;
+            margin-left: -2px;
+        }
+        .three{
+            margin: 50px 80px 100px -80px;
+        }
+        .three img{
+            width: 230px;
+            margin-left: 263px;
+        }
+        .threeb{
+            width: 230px;
+            height: 107px;
+            border: 2px solid #000;
+            margin-top: -112px;
+            margin-left: 261px;
+        }
+    }

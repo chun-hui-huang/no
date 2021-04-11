@@ -1,0 +1,552 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------*/
+@font-face{
+    font-family: 'burnfont-1.0';
+    src: local(burnfont)
+         url('../font/burnfont-1.0.ttf')format("truetype"),
+         url('../font/burnfont-1.0.woff')format("woff")
+}
+/*layout*/
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+}
+.container p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 12px;
+}
+.header .logo{
+    margin-left: 70px;
+}
+.header .logo img{
+    max-width: 100px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+ul a{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.concept{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.drop_down{
+    display: none;
+    position: relative;
+    position: absolute;
+    top:75px;
+    right: 290px;
+    border: #000 solid 1px;
+    background-color: #fff;
+}
+
+.drop_down a{
+    display: block;
+    font-size: 20px;
+    color:#000;
+    text-decoration: none;
+    padding: 15px 0px;
+    align-items: center;
+    text-align: center;
+}
+.concept:hover .drop_down{
+    display: block;
+}
+.drop_down a:hover{
+    
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    background-color: #000;
+}
+.footer{
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+.footer p{
+    font-size: 12px;
+    color:#fff;
+}
+.footer a{
+    margin: 0 5px;
+}
+.footer img{
+    max-width: 30px;
+}
+/*-------------*/
+.banner{
+    margin: 0 auto;
+    align-items: center;
+}
+.banner img{
+    max-width: 100%;
+    height: auto;
+    
+}
+.bannertext{
+    width: 30%;
+    margin: -30% 0 40% 37%;
+}
+.main{
+    
+    max-width: 75%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    }
+.chart{
+        margin-left: 50px;
+    }
+
+.dialog{
+    margin: -120px 150px 120px -150px;
+}
+.population{
+    display: flex;
+}
+
+.chartimg{
+    margin: -300px 0 300px 0px;
+}
+.populationpbackb{
+    margin-top: 10px;
+    margin-left: -120px;
+    width:400px;
+    border-left:170px solid transparent;
+    border-bottom:400px solid #145A7E;
+}
+.populationpbackw{
+    margin-top: -410px;
+    margin-left: -130px;
+    width:400px;
+    border-left:170px solid transparent;
+    border-bottom:400px solid #000;
+}
+.populationpback{
+    margin-top: -398px;
+    margin-left: -128px;
+    width:396px;
+    border-left:170px solid transparent;
+    border-bottom:396px solid #fff;
+}
+.populationp p{
+    width: 330px;
+    height: 300px;
+    line-height: 1.5em;
+    margin-top: -350px;
+    margin-left: 50px;
+    }
+
+.drink{
+    margin: 50px 0 0 0;
+}
+.peopleback{
+    margin-top: 60px;
+    background-color: #FF7772;
+    width: 354px;
+    padding: 88px 18px;
+}
+.people{
+    margin-top: -180px;
+    margin-left: 5px;
+    width: 350px;
+    padding: 18px;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+.familyback{
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: #FF7772;
+    width: 354px;
+    padding: 100px 18px;
+}
+.family{
+    margin-top: -208px;
+    margin-left: 395px;
+    width: 350px;
+    padding: 18px;
+    border: 2px solid #000;
+    background-color: #fff;
+}
+.drink img{
+    max-width: 250px;
+    height: auto;
+    padding-left: 500px;
+}
+.habitimg{
+    max-width: 80%;
+    margin-top: 100px;
+    margin-left: 500px;
+}
+.loop{
+    display: flex;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+.looplefty{
+    margin: 100px 0 0 90px;
+    width:280px;
+    border-right:80px solid transparent;
+    border-top:254px solid #FF9D0D;
+}
+.loopleftb{
+    margin: -260px 0 0 95px;
+    width:280px;
+    border-right:80px solid transparent;
+    border-top:254px solid #000;
+}
+.loopleftw{
+    margin: -252px 0 0 97px;
+    width:276px;
+    border-right:80px solid transparent;
+    border-top:250px solid #fff;
+}
+.loopleft p{
+    width: 260px;
+    margin: -240px 0 0 120px;
+}
+.looprightimgy{
+    margin: 0px 0 0 -20px;
+    width:280px;
+    border-left:80px solid transparent;
+    border-bottom:254px solid #FF9D0D;
+}
+.looprightimgb{
+    margin: -260px 0 0 -30px;
+    width:280px;
+    border-left:80px solid transparent;
+    border-bottom:254px solid #000;
+}
+.looprightimgw{
+    margin: -252px 0 0 -28px;
+    width:276px;
+    border-left:80px solid transparent;
+    border-bottom:250px solid #fff;
+}
+.loopright img{
+    margin: -225px 0 225px 65px;
+    padding-top: -90px;
+}
+.looprighty{
+    margin: -150px 0 0 -105px;
+    width:368px;
+    border-left:80px solid transparent;
+    border-bottom:254px solid #FF9D0D;
+}
+.looprightb{
+    margin: -260px 0 0 -115px;
+    width:368px;
+    border-left:80px solid transparent;
+    border-bottom:254px solid #000;
+}
+.looprightw{
+    margin: -252px 0 0 -113px;
+    width:364px;
+    border-left:80px solid transparent;
+    border-bottom:250px solid #fff;
+}
+.loopright p{
+    width: 300px;
+    margin-top: -200px;
+}
+/*max-width:1024*/
+@media(max-width:1024px){
+    .container p{
+        font-size: 16px;
+    }
+    
+    .main{
+        max-width: 75%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        }
+    
+    .populationimg{
+        max-width: 230px;
+    }
+    .dialog{
+        margin: -120px 150px 120px -150px;
+    }
+    .population{
+        display: flex;
+    }
+    .chartimg{
+        margin: -300px 0 300px 0px;
+        max-width: 250px;
+        
+    }
+    .populationpbackb{
+        margin-top: 10px;
+        margin-left: -120px;
+        width:350px;
+        border-left:170px solid transparent;
+        border-bottom:400px solid #145A7E;
+    }
+    .populationpbackw{
+        margin-top: -410px;
+        margin-left: -130px;
+        width:350px;
+        border-left:170px solid transparent;
+        border-bottom:400px solid #000;
+    }
+    .populationpback{
+        margin-top: -398px;
+        margin-left: -128px;
+        width:346px;
+        border-left:170px solid transparent;
+        border-bottom:396px solid #fff;
+    }
+    .populationp p{
+        width: 310px;
+        height: 300px;
+        line-height: 1.5em;
+        margin-top: -350px;
+        margin-left: 50px;
+    }
+    .drink{
+        margin: 50px 0 0 0;
+        
+    }
+    .drink img{
+        margin: 0 0 0 -150px;
+    }
+    .peopleback{
+        margin-top: 60px;
+        background-color: #FF7772;
+        width: 300px;
+        padding: 80px 18px;
+    }
+    .people{
+        margin-top: -165px;
+        margin-left: 5px;
+        width: 300px;
+        padding: 18px;
+        border: 2px solid #000;
+        background-color: #fff;
+    }
+    .familyback{
+        margin-top: 100px;
+        margin-left: 380px;
+        background-color: #FF7772;
+        width: 304px;
+        padding: 90px 18px;
+    }
+    .family{
+        margin-top: -192px;
+        margin-left: 370px;
+        width: 304px;
+        padding: 18px;
+        border: 2px solid #000;
+        background-color: #fff;
+    }
+    .drink img{
+        max-width: 250px;
+        height: auto;
+        padding-left: 500px;
+    }
+    .habitimg{
+        max-width: 70%;
+        margin-top: 100px;
+        margin-left: 400px;
+    }
+    .loop{
+        display: flex;
+        max-width: 100%;
+        margin-top: 100px;
+    }
+    
+    .looplefty{
+        margin: 100px 0 0 0px;
+        width:250px;
+        border-right:80px solid transparent;
+        border-top:254px solid #FF9D0D;
+    }
+    .loopleftb{
+        margin: -260px 0 0 8px;
+        width:250px;
+        border-right:80px solid transparent;
+        border-top:254px solid #000;
+    }
+    .loopleftw{
+        margin: -252px 0 0 10px;
+        width:246px;
+        border-right:80px solid transparent;
+        border-top:250px solid #fff;
+    }
+    .loopleft p{
+        width: 230px;
+        margin: -230px 0 0 35px;
+    }
+    .looprightimgy{
+        margin: 0px 0 0 -20px;
+        width:250px;
+        border-left:80px solid transparent;
+        border-bottom:254px solid #FF9D0D;
+    }
+    .looprightimgb{
+        margin: -260px 0 0 -30px;
+        width:250px;
+        border-left:80px solid transparent;
+        border-bottom:254px solid #000;
+    }
+    .looprightimgw{
+        margin: -252px 0 0 -28px;
+        width:246px;
+        border-left:80px solid transparent;
+        border-bottom:250px solid #fff;
+    }
+    .loopright img{
+        margin: -225px 0 225px 55px;
+        padding-top: -90px;
+        width: 220px;
+    }
+    .looprighty{
+        margin: -150px 0 0 -105px;
+        width:335px;
+        border-left:80px solid transparent;
+        border-bottom:254px solid #FF9D0D;
+    }
+    .looprightb{
+        margin: -260px 0 0 -115px;
+        width:335px;
+        border-left:80px solid transparent;
+        border-bottom:254px solid #000;
+    }
+    .looprightw{
+        margin: -252px 0 0 -113px;
+        width:331px;
+        border-left:80px solid transparent;
+        border-bottom:250px solid #fff;
+    }
+    .loopright p{
+        width: 250px;
+        margin-top: -200px;
+    }
+
+
+}
+/*-------------------------------*/
+/*max-width:768*/
+@media(max-width:768px){
+    /*layout*/
+        .container{
+            max-width: 700px;
+        }
+        .container p{
+            font-size: 16px;
+        }
+        .header{
+            padding: 10px 0;
+            
+        }
+        .header .logo{
+            margin-left: 20px;
+        }
+        .header .logo img{
+            max-width: 70px;
+            
+        }
+        ul{
+            
+            margin-right: 20px;
+        }
+        ul a{
+            font-size: 16px;
+        }
+        .concept{
+            font-size: 16px;
+        }
+        .drop_down{
+            top:49px;
+            right: 210px;
+        }
+        .drop_down a{
+            font-size: 16px;
+            padding: 10px 0px;
+        }
+        .drop_down a:hover{
+            font-size: 16px;
+            padding: 10px 0px;
+        }
+        .footer{
+            padding: 30px 20px;
+        }
+        .footer a{
+            margin: 0 5px;
+        }
+        .footer img{
+            max-width: 20px;
+        }
+    /*-------------------------------*/
+        
+        
+    }

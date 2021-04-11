@@ -1,0 +1,185 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*-------------*/
+@font-face{
+    font-family: 'burnfont-1.0';
+    src: local(burnfont)
+         url('../font/burnfont-1.0.ttf')format("truetype"),
+         url('../font/burnfont-1.0.woff')format("woff")
+}
+/*layout*/
+.container{
+    margin: 0 auto;
+    max-width: 90%;
+}
+.container p{
+    font-size: 18px;
+    line-height: 1.5em;
+}
+.header{
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    font-size: 12px;
+}
+.header .logo{
+    margin-left: 70px;
+}
+.header .logo img{
+    max-width: 100px;
+}
+ul{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 70px;
+}
+ul a{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    margin: 0 20px;
+}
+.concept{
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    margin: 0 20px;
+    cursor: pointer;
+}
+.drop_down{
+    display: none;
+    position: relative;
+    position: absolute;
+    top:75px;
+    right: 290px;
+    border: #000 solid 1px;
+    background-color: #fff;
+}
+
+.drop_down a{
+    display: block;
+    font-size: 20px;
+    color:#000;
+    text-decoration: none;
+    padding: 15px 0px;
+    align-items: center;
+    text-align: center;
+}
+.concept:hover .drop_down{
+    display: block;
+}
+.drop_down a:hover{
+    
+    font-size: 20px;
+    color:#fff;
+    text-decoration: none;
+    background-color: #000;
+}
+.footer{
+    background-color: #BCBCBC;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 20px;
+    margin-top: 100px;
+    margin-bottom: -200px;
+}
+.footer p{
+    font-size: 12px;
+    color:#fff;
+}
+.footer a{
+    margin: 0 5px;
+}
+.footer img{
+    max-width: 30px;
+}
+.banner{
+    margin: 0 auto;
+    align-items: center;}
+.banner img{
+    max-width: 100%;
+    height: auto;
+}
+.bannertext{
+    width: 30%;
+    margin: -30% 0 40% 37%;
+}
+/*-------------*/
+.content{
+    max-width: 700px;
+    margin: 0 auto;
+}
+.title{
+    margin: 0 0 50px 200px;
+}
+.text{
+    padding: 20px 120px;
+}
+button{
+    background-image: url(../img/question/button.png);
+    width: 203px;
+    height: 99px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 30px 220px;
+    cursor: pointer;
+}
+button:hover{
+    background-image: url(../img/question/buttonhover.png);
+    width: 203px;
+    height: 99px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin: 30px 220px;
+}
