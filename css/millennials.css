@@ -314,7 +314,7 @@ ul a{
     border-left:80px solid transparent;
     border-bottom:250px solid #fff;
 }
-.headersmall{
+.loopsmall{
     display: none;
 }
 .loopright p{
@@ -494,6 +494,9 @@ ul a{
         width:331px;
         border-left:80px solid transparent;
         border-bottom:250px solid #fff;
+    }
+    .loopsmall{
+        display: none;
     }
     .loopright p{
         width: 250px;
