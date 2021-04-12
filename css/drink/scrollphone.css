@@ -727,9 +727,9 @@ ul a{
         
     }
     .desleftone{
-        width: 85px;
-        padding: 10px;
-        margin-right: 50px;
+        width: px;
+        padding: 5px;
+        margin-right: 20px;
     }
     .desleftone h2{
         font-size: 12px;
@@ -749,8 +749,8 @@ ul a{
     }
     .desrighttwo{
         width: 85px;
-        padding: 10px;
-        margin-left: 20px;
+        padding: 0px;
+        margin-left: 5px;
     }
     .desrighttwo h2{
         font-size: 12px;
