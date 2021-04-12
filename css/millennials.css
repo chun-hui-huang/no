@@ -314,6 +314,9 @@ ul a{
     border-left:80px solid transparent;
     border-bottom:250px solid #fff;
 }
+.headersmall{
+    display: none;
+}
 .loopright p{
     width: 300px;
     margin-top: -200px;
@@ -332,7 +335,9 @@ ul a{
         margin-top: 100px;
         margin-bottom: 100px;
         }
-    
+    .headersmall{
+        display: none;
+    }
     .populationimg{
         max-width: 230px;
     }

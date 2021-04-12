@@ -175,38 +175,34 @@ ul a{
     color:transparent;
     -webkit-text-stroke: 1.5px #000;
     margin-top: -65px;
+    box-shadow: #145A7E -5px 5px;
 
 }
 .one{
     display: flex;
     margin-bottom: 20px;
-    margin-top: 8px;
+    margin-top: 5px;
 }
 .oneleft{
-    max-width: 380px;
-    padding-right: 70px;
+    max-width: 40%;
+    padding-right: 10%;
     border-right: solid 2px #000;
-    padding-bottom: 150px;
+    padding-bottom: 200px;
 }
 
 .oneleft p{
-    margin-top: -210px;
+    margin-top: 110px;
     margin-left: 84px;
     padding: 18px;
     width: 280px;
     border: #000 2px solid;
     background-color: #fff;
+    box-shadow: #145A7E -5px 5px;
 }
-.oneleftback{
-    margin-top: 150px;
-    margin-left: 75px;
-    width: 280px;
-    padding: 100px 18px;
-    background-color: #145A7E;
-}
+
 .oneright{
-    max-width: 380px;
-    padding-left: 70px;
+    max-width: 40%;
+    padding-left: 10%;
     align-items: center;
 }
 .oneright img{
@@ -220,27 +216,19 @@ ul a{
     padding: 18px;
     width: 250px;
     background-color: #fff;
-    margin-top: -160px;
+    margin-top: 80px;
     margin-left: -10px;
+    margin-bottom: 50px;
+    box-shadow: #145A7E 5px 5px;
 }
-.onerightback{
-    width: 250px;
-    padding: 75px 18px;
-    background-color: #145A7E;
-}
+
 .years2{
     max-width: 10%;
     margin: 0 auto;
     margin-top: -8px;
     margin-bottom: 10px;
 }
-.years2back{
-    width: 90px;
-    height: 50px;
-    background-color: #FF7772;
-    margin-left: 5px;
-    margin-bottom: 8px;
-}
+
 .years2 p{
     padding: 8px;
     border: #000 2px solid;
@@ -250,7 +238,8 @@ ul a{
     font-weight: bolder;
     color:transparent;
     -webkit-text-stroke: 1.5px #000;
-    margin-top: -70px;
+    margin-top: -20px;
+    box-shadow: #FF7772 5px 5px;
 
 }
 .two{
@@ -258,50 +247,38 @@ ul a{
     margin-top: -4px;
 }
 .twoleft{
-    width: 370px;
-    padding-right: 80px;
+    width: 40%;
+    padding-right: 10%;
     border-right: solid 2px #000;
     padding-bottom: 150px;
 }
-.twoleftback{
-    width: 180px;
-    padding: 60px 18px;
-    background-color: #FF7772;
-    margin-left: 149px;
-}
+
 .twoleft p{
-    margin-top: -128px;
+    margin-top: 128px;
     margin-left: 154px;
     width: 180px;
     padding: 18px;
     border: solid 2px #000;
     background: #fff;
-    
+    box-shadow: #FF7772 -5px 5px;
 }
 .twoleft img{
     max-width: 80px;
     margin-left: 254px;
     margin-bottom: 40px;
 }
-.tworightback{
-    margin-top: 80px;
-    margin-left: 9px;
-    width: 280px;
-    padding: 100px 18px;
-    background-color: #FF7772;
 
-    
-}
 .tworight p{
-    margin-top: -210px;
+    margin-top: 210px;
     width: 280px;
     padding: 18px;
     border: solid 2px #000;
     background: #fff;
+    box-shadow: #FF7772 5px 5px;
 }
 .tworight{
-    width: 370px;
-    padding-left: 80px;
+    width: 40%;
+    padding-left: 10%;
 }
 .years3{
     max-width: 10%;
@@ -309,12 +286,7 @@ ul a{
     margin-top: 10px;
     margin-bottom: 6px;
 }
-.years3back{
-    width: 90px;
-    height: 50px;
-    background-color: #FF9D0D;
-    margin-left: -5px;
-}
+
 .years3 p{
     padding: 8px;
     border: #000 2px solid;
@@ -324,7 +296,8 @@ ul a{
     font-weight: bolder;
     color:transparent;
     -webkit-text-stroke: 1.5px #000;
-    margin-top: -62px;
+    margin-top: -12px;
+    box-shadow: -5px 5px #FF9D0D;
 }
 .three{
     display: flex;
@@ -332,8 +305,8 @@ ul a{
     margin-top: 6px;
 }
 .threeleft{
-    width: 380px;
-    padding-right: 70px;
+    width: 40%;
+    padding-right: 10%;
     border-right: solid 2px #000;
     padding-bottom: 150px;
 }
@@ -342,19 +315,14 @@ ul a{
     border: 2px solid #000;
     width: 230px;
     margin-left: 114px;
-    margin-top: -183px;
+    margin-top: 183px;
     background-color: #fff;
+    box-shadow: #FF9D0D -5px 5px;
 }
-.threeleftback{
-    margin-top: 160px;
-    margin-left: 109px;
-    width: 230px;
-    padding: 90px 18px;
-    background-color: #FF9D0D;
-}
+
 .threeright{
-    width: 380px;
-    padding-left: 70px;
+    width: 40%;
+    padding-left: 10%;
     align-items: center;
 }
 .threeright img{
@@ -363,18 +331,14 @@ ul a{
     height: auto;
     margin-bottom: 40px;
 }
-.threerightback{
-    width: 230px;
-    padding: 75px 19px;
-    background-color: #FF9D0D;
-    margin-left: 7px;
-}
+
 .threeright p{
     width: 230px;
     border: 2px solid #000;
     padding: 18px;
-    margin-top: -156px;
+    margin-top: 156px;
     background-color: #fff;
+    box-shadow: #FF9D0D 5px 5px;
 }
 .years4{
     max-width: 10%;
@@ -382,13 +346,7 @@ ul a{
     margin-top: -8px;
     margin-bottom: 3px;
 }
-.years4back{
-    width: 90px;
-    height: 50px;
-    background-color: #2197AE;
-    margin-left: 5px;
-    margin-bottom: 8px;
-}
+
 .years4 p{
     padding: 8px;
     border: #000 2px solid;
@@ -398,16 +356,18 @@ ul a{
     font-weight: bolder;
     color:transparent;
     -webkit-text-stroke: 1.5px #000;
-    margin-top: -70px;
+    margin-top: -20px;
+    box-shadow: #2197AE 5px 5px;
 }
 .four{
     display: flex;
     margin-bottom: 20px;
     margin-top: 6px;
+    
 }
 .fourleft{
-    width: 380px;
-    padding-right: 70px;
+    width: 40%;
+    padding-right: 10%;
     border-right: solid 2px #000;
     padding-bottom: 130px;
     align-items: center;
@@ -418,37 +378,28 @@ ul a{
     margin-left: 220px;
     margin-bottom: 50px;
 }
-.fourleftback{
-    padding: 50px 18px;
-    width: 180px;
-    background-color: #2197AE;
-    margin-left: 145px;
-}
+
 .fourleft p{
     padding: 18px;
     width: 180px;
     border: 2px solid #000;
     margin-left: 150px;
-    margin-top: -103px;
+    margin-top: 103px;
     background-color: #fff;
+    box-shadow: #2197AE -5px 5px;
 }
 .fourright{
-    width: 380px;
-    padding-left: 70px;
+    width: 40%;
+    padding-left: 10%;
 }
-.fourrightback{
-    padding: 100px 18px;
-    width: 300px;
-    background-color: #2197AE;
-    margin-top: 120px;
-    margin-left: 9px;
-}
+
 .fourright p{
     padding: 18px;
     border: 2px solid #000;
     width: 300px;
     background-color: #fff;
-    margin-top: -210px;
+    margin-top: 210px;
+    box-shadow: #2197AE 5px 5px;
 }
 .years5{
     max-width: 10%;
@@ -456,12 +407,7 @@ ul a{
     margin-top: -8px;
     margin-bottom: 3px;
 }
-.years5back{
-    width: 90px;
-    height: 50px;
-    background-color: #FF7772;
-    margin-left: -5px;
-}
+
 .years5 p{
     padding: 8px;
     border: #000 2px solid;
@@ -471,7 +417,8 @@ ul a{
     font-weight: bolder;
     color:transparent;
     -webkit-text-stroke: 1.5px #000;
-    margin-top: -62px;
+    margin-top: -22px;
+    box-shadow: #FF7772 -5px 5px;
 }
 .five{
     display: flex;
@@ -479,25 +426,20 @@ ul a{
     margin-top: 6px;
 }
 .fiveleft{
-    width: 380px;
-    padding-right: 70px;
+    width: 40%;
+    padding-right: 10%;
     border-right: solid 2px #000;
     padding-bottom: 200px;
 }
-.fiveleftback{
-    margin-top: 100px;
-    margin-left: 65px;
-    padding: 75px 18px;
-    width: 280px;
-    background-color: #FF7772;
-}
+
 .fiveleft p{
     padding: 18px;
     width: 280px;
     border: #000 2px solid;
     background-color: #fff;
     margin-left: 70px;
-    margin-top: -155px;
+    margin-top: 155px;
+    box-shadow: #FF7772 -5px 5px;
 }
 .fiveright{
     width: 380px;
@@ -509,18 +451,14 @@ ul a{
     margin-left: 50px;
     margin-bottom: 50px;
 }
-.fiverightback{
-    margin-left: 8px;
-    padding: 75px 18px;
-    width: 260px;
-    background-color: #FF7772;
-}
+
 .fiveright p{
     padding: 18px;
     width: 260px;
     border: #000 2px solid;
     background-color: #fff;
-    margin-top: -154px;
+    margin-top: 124px;
+    box-shadow: #FF7772 5px 5px;
 }
 .now{
     max-width: 10%;
@@ -528,13 +466,7 @@ ul a{
     margin-top: -8px;
     margin-bottom: 50px;
 }
-.nowback{
-    width: 90px;
-    height: 50px;
-    background-color: #FF9D0D;
-    margin-left: 5px;
-    margin-bottom: 8px;
-}
+
 .now p{
     padding: 8px;
     border: #000 2px solid;
@@ -544,7 +476,8 @@ ul a{
     font-weight: bolder;
     color:transparent;
     -webkit-text-stroke: 1.5px #000;
-    margin-top: -70px;
+    margin-top: -20px;
+    box-shadow: #FF9D0D 5px 5px;
 }
 .six{
     display: flex;
@@ -601,16 +534,18 @@ ul a{
 /*max-width:1000*/
 @media(max-width:1000px){
     .banner{
-        max-width: 900px;
+        max-width: 100%;
         margin: 0 auto;
     }
     .banner img{
-        max-width: 900px;
+        max-width: 100%;
         height: auto;
     }
+    
     .content{
-        
+        margin-left: -50px;
     }
+    
 }
 /*---------------*/
 /*max-width:768*/
