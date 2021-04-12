@@ -245,7 +245,7 @@ table {
     justify-content: space-around;
 }
 .text img{
-    max-width: 500px;
+    max-height: 500px;
 }
 .text p{
     align-items: center;
@@ -338,16 +338,19 @@ table {
         /* 選單大小 */
         width:30px;
         height:30px;
+        position: absolute;
+        top: 20px;
+        left:  20px;
     }
     #menuimg{
-        max-width: 30px;
+        max-width: 20px;
     }
     .container p{
         font-size: 10px;
     }
     .logo{
-        width: 100px;
-        margin: -200px 0 200px 200px ;
+        max-height: 100px;
+        margin: -200px 100px 200px 100px ;
     }
     .content img{
         width: 150px;
@@ -356,9 +359,9 @@ table {
     .footer{
         padding: 30px 20px;
     }
-    .logo{
-        width: 150px;
-        margin: -200px 0 200px 800px ;
+    .banner .logo{
+        max-width: 50px;
+        margin: -70px 0px 70px 200px;
     }
     .text{
         padding: 20px;
