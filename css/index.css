@@ -228,23 +228,19 @@ table {
 .footer img{
     max-width: 30px;
 }
-
 .banner{
     max-width: 100%;
     margin-top: -10px;
-    margin-bottom: 0px;
-    
-    
+    margin-bottom: 0px; 
 }
 .banner img{
-    
-        max-width: 100%;
+    max-width: 100%;
 }
 .logo{
     margin: -350px 0 350px 1000px ;
 }
 .text{
-    padding: 200px;
+    padding: 100px;
     display: flex;
     justify-content: space-around;
 }
@@ -272,9 +268,8 @@ table {
         width: 120px;
         margin: -200px 0 200px 700px ;
     }
-    .content img{
-        width: 350px;
-        height: 0 auto;
+    .text img{
+        max-height: 500px;
     }
 }
 
@@ -365,8 +360,12 @@ table {
         width: 150px;
         margin: -200px 0 200px 800px ;
     }
+    .text{
+        padding: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
     .text img{
-        width: 100px;
-        
+        max-height: 150px;
     }
 }
