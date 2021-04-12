@@ -263,9 +263,7 @@ table {
         font-size: 16px;
     }
     
-    .frame img{
-        max-width: 600px;
-    }
+    
     .footer{
         padding: 30px 20px;
     }
@@ -283,7 +281,7 @@ table {
 @media(max-width:768px){
     /*layout*/
         .container{
-            max-width: 700px;
+            max-width: 100%;
         }
         .container p{
             font-size: 16px;
@@ -340,3 +338,31 @@ table {
             height: auto;
         }
     }
+    /*max-width:360*/
+@media(max-width:360px){
+    /*layout*/
+    #menu {
+        /* 選單大小 */
+        width:30px;
+        height:30px;
+    }
+    #menuimg{
+        max-width: 30px;
+    }
+    .container p{
+        font-size: 16px;
+    }
+    
+    
+    .footer{
+        padding: 30px 20px;
+    }
+    .logo{
+        width: 150px;
+        margin: -200px 0 200px 800px ;
+    }
+    .text img{
+        width: 100px;
+        
+    }
+}

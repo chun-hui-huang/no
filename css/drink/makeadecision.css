@@ -641,3 +641,148 @@ ul a{
     }
 
 }
+/*max-width:360*/
+@media(max-width:360px){
+    .content{
+        max-width: 300px;
+        margin: 0 auto;
+        
+    }
+    .main{
+        margin-top: 150px;
+        margin-left: -15px;
+        
+    }
+    .frame img{
+        max-width: 120px;
+    }
+    .frameleft{
+        margin-left: 0px;
+        margin-right: -80px;
+    }
+    .frameright{
+        margin-top: -50px;
+        margin-left: -20px;
+    }
+    .name{
+        max-width: 80px;
+        margin: -550px 0 550px 130px;
+    }
+    .mainimg{
+        max-width: 250px;
+        margin: -700px 0 700px 80px;
+        width: 400px;
+    }
+    .diseasename{
+        writing-mode: vertical-rl;
+        margin : -800px -10px 800px 10px;
+        padding: 30px 15px;
+        border: 2px solid #000;
+    }
+    .diseasename p{
+        font-size: 16px;
+        font-weight:500;
+    }
+    .description{
+        margin-top: -650px;
+        margin-left: 20px;
+        margin-bottom: 650px;
+    }
+    .one{
+        display: flex;
+        margin-left: 0px;
+    }
+    .desleftone{
+        width: 100px;
+        padding: 18px;
+        margin-right: 40px;
+    }
+    .desleftone h2{
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .desrightone img{
+        margin-top: 15px;
+        max-width: 120px;
+    }
+    .desrightoneb{
+        width: 120px;
+        height: 83px;
+        border: 2px solid #000;
+        margin-top: -88px;
+        margin-left: -2px;
+    }
+    .two{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+    
+    .desrighttwo{
+        width: 120px;
+        padding: 18px;
+        margin-left: 20px;
+    }
+    .desrighttwo h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .deslefttwo{
+        margin-top: 15px;
+    }
+    .deslefttwo img{
+        max-width: 120px;
+    }
+    .deslefttwob{
+        width: 120px;
+        height: 83px;
+        border: 2px solid #000;
+        margin-top: -88px;
+        margin-left: -2px;
+    }
+    .three{
+        margin-top: 50px;
+       
+    }
+    .three img{
+        margin-left: 254px;
+        margin-top: 20px;
+        
+        width: 120px;
+    }
+    .threeb{
+        width: 120px;
+        height: 83px;
+        border: 2px solid #000;
+        margin-top: -123px;
+        margin-left: 252px;
+    }
+    .page{
+        margin-top: -500px;
+        margin-left: 20px;
+        margin-right: -20px;
+        
+    }
+    .footer img{
+        max-width: 20px;
+    }
+    .header{
+        background-color: #000;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        font-size: 12px;
+    }
+    .header .logo{
+        margin-left: 40px;
+    }
+    .header .logo img{
+        max-width: 50px;
+    }
+    .header ul{
+        display: none;
+    }
+    
+
+}
