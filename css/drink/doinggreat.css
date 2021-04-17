@@ -399,6 +399,32 @@ ul a{
     }
 }
 /*-------------------------------*/
+/*max-width:909*/
+@media(max-width:909px){
+    .frame img{
+        width: 500px;
+    }
+    .mainimg{
+        width: 500px;
+        margin: -910px 0px 910px 0px;
+    }
+    .name{
+        width: 150px;
+        margin: -800px 20px 800px -20px;
+    }
+    .disname{
+        width: 120px;
+        margin: -1050px 0 1050px 400px;
+    }
+    .description{
+        margin-top: -1150px;
+        margin-left: 80px;
+        margin-bottom: 1150px;
+        
+    }
+    
+}
+/*-------------------------------*/
 /*max-width:768*/
 @media(max-width:768px){
     /*layout*/
@@ -530,3 +556,96 @@ ul a{
             margin-left: 260px;
         }
     }
+@media(max-width:500px){
+    .content{
+        max-width: 100%;
+        margin: 0 auto;
+        
+    }
+    .frameup{
+        margin-left: 0px;
+    }
+    .frameup img{
+        max-width: 60%;
+    }
+    .framedown{
+        margin: -100px 0 0 0px;
+    }
+    .framedown img{
+        max-width: 60%;
+    }
+    .name{
+        max-width: 30%;
+        margin: 0;
+    }
+    .mainimg{
+        max-width: 65%;
+        margin: 0;
+    }
+    .disname{
+        margin: 0;
+    }
+    .description{
+        margin-top: -950px;
+        margin-left: 80px;
+        margin-bottom: 950px;
+        
+    }
+    .one{
+        display: flex;
+        margin: 0 80px 0 -80px;
+    }
+    .desleftone{
+        width: 250px;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .desleftone h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .desrightoneb{
+        width: 252px;
+        height: 126px;
+        border: 2px solid #000;
+        margin-top: -131px;
+        margin-left: -2px;
+    }
+    .two{
+        display: flex;
+        margin: 50px 80px 0 -80px;
+    }
+    .desrighttwo{
+        width: 250px;
+        padding: 18px;
+        margin-left: 75px;
+    }
+    
+    .desrighttwo h2{
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .deslefttwo img{
+        margin: 5px 20px 0 -20px;
+    }
+    .deslefttwob{
+        width: 252px;
+        height: 126px;
+        border: 2px solid #000;
+        margin-top: -131px;
+        margin-left: -2px;
+    }
+    .three{
+        margin: 50px 80px 100px -80px;
+    }
+    .three img{
+        margin-left: 320px;
+    }
+    .threeb{
+        width: 270px;
+        height: 125px;
+        border: 2px solid #000;
+        margin-top: -131px;
+        margin-left: 318px;
+    }
+}

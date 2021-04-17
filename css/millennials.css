@@ -339,10 +339,11 @@ ul a{
         display: none;
     }
     .populationimg{
-        max-width: 230px;
+        width:200px;
     }
     .dialog{
         margin: -120px 150px 120px -150px;
+        max-width: 100%;
     }
     .population{
         display: flex;
@@ -355,27 +356,29 @@ ul a{
     .populationpbackb{
         margin-top: 10px;
         margin-left: -120px;
-        width:350px;
+        width:90%;
         border-left:170px solid transparent;
         border-bottom:400px solid #145A7E;
     }
     .populationpbackw{
         margin-top: -410px;
         margin-left: -130px;
-        width:350px;
+        width:90%;
         border-left:170px solid transparent;
         border-bottom:400px solid #000;
+        
     }
     .populationpback{
         margin-top: -398px;
         margin-left: -128px;
-        width:346px;
+        width:89%;
         border-left:170px solid transparent;
         border-bottom:396px solid #fff;
+        
     }
     .populationp p{
         width: 310px;
-        height: 300px;
+        
         line-height: 1.5em;
         margin-top: -350px;
         margin-left: 50px;
@@ -403,14 +406,14 @@ ul a{
     }
     .familyback{
         margin-top: 100px;
-        margin-left: 380px;
+        margin-left: 310px;
         background-color: #FF7772;
         width: 304px;
         padding: 90px 18px;
     }
     .family{
         margin-top: -192px;
-        margin-left: 370px;
+        margin-left: 300px;
         width: 304px;
         padding: 18px;
         border: 2px solid #000;
@@ -422,7 +425,7 @@ ul a{
         padding-left: 500px;
     }
     .habitimg{
-        max-width: 70%;
+        max-width: 200px;
         margin-top: 100px;
         margin-left: 400px;
     }
