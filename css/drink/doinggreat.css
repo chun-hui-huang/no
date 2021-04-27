@@ -317,7 +317,7 @@ ul a{
 /*max-width:1024*/
 @media(max-width:1024px){
     .container p{
-        font-size: 16px;
+        font-size: 12px;
     }
     .content{
         margin-top: 80px;
@@ -348,7 +348,7 @@ ul a{
         margin-right: 50px;
     }
     .desleftone h2{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: bold;
         margin-bottom: 5px;
     }
@@ -429,10 +429,11 @@ ul a{
 @media(max-width:768px){
     /*layout*/
         .container{
-            max-width: 700px;
+            max-width: 100%;
+            margin: 0 auto;
         }
         .container p{
-            font-size: 16px;
+            font-size: 12px;
         }
         .header{
             padding: 10px 0;
@@ -450,21 +451,21 @@ ul a{
             margin-right: 20px;
         }
         ul a{
-            font-size: 16px;
+            font-size: 12px;
         }
         .concept{
-            font-size: 16px;
+            font-size: 12px;
         }
         .drop_down{
             top:49px;
-            right: 210px;
+            right: 185px;
         }
         .drop_down a{
-            font-size: 16px;
+            font-size: 12px;
             padding: 10px 0px;
         }
         .drop_down a:hover{
-            font-size: 16px;
+            font-size: 12px;
             padding: 10px 0px;
         }
         .footer{
@@ -478,117 +479,134 @@ ul a{
         }
     /*-------------------------------*/
         .content{
-            max-width: 600px;
+            max-width: 100%;
+            margin-left: ;
         }
         .main{
             margin-top: 100px;
-            margin-left: 30px;
+            position: relative;
         }
         .frame img{
-            max-width: 500px;
+            max-width: 400px;
+        }
+        .framedown img{
+            margin-top: 10%;
         }
         .mainimg{
-            max-width: 500px;
-            margin: -860px 0 860px 0;
+            max-width: 400px;
+            position: absolute;
+            top: 1054px;
         }
         .name{
-            width: 130px;
-            margin: -900px 0 900px 0;
+            width: 100px;
+            position: absolute;
+            top: 700px;
         }
         .disname{
-            max-width: 110px;
-            margin: -1050px 0 1050px 380px;
+            max-width: 100px;
+            position: absolute;
+            top: 1500px;
+            left: -50px;
+            
         }
         .description{
-            margin-left: 100px;
+            margin-top: 100px;
         }
         .desleftone{
-            width: 220px;
+            width: 200px;
             padding: 18px;
-            margin-right: 60px;
+            margin-right: 40px;
         }
         .desleftone h2{
-            font-size: 18px;
+            font-size: 14px;
             font-weight: bold;
         }
         .desrightoneb{
-            width: 220px;
-            height: 108px;
+            width: 190px;
+            height: 93px;
             border: 2px solid #000;
-            margin-top: -112px;
+            margin-top: px;
             margin-left: -2px;
         }
         .desrightone img{
-            width: 230px;
+            width: 200px;
+            margin-top: -1px;
         }
         .desrighttwo{
             width: 220px;
             padding: 18px;
-            margin-left: 20px;
+            margin-left: 40px;
         }
         .desrighttwo h2{
-            font-size: 18px;
+            font-size: 14px;
             font-weight: bold;
+            margin-bottom: 5px;
         }
         .deslefttwo img{
             margin: 5px 10px 0 -10px;
             width: 230px;
         }
         .deslefttwob{
-            width: 220px;
-            height: 108px;
+            width: 190px;
+            height: 93px;
             border: 2px solid #000;
-            margin-top: -112px;
+            margin-top: px;
             margin-left: -2px;
         }
         .three{
-            margin: 50px 80px 100px -80px;
+            margin: 50px 180px 100px 0px;
         }
         .three img{
-            width: 230px;
-            margin-left: 263px;
+            width: 200px;
+            margin-left: 55%;
         }
         .threeb{
-            width: 227px;
-            height: 107px;
+            width: 198px;
+            height: 91px;
             border: 2px solid #000;
-            margin-top: -112px;
-            margin-left: 260px;
+            margin-top: px;
+            margin-left: 55%;
         }
     }
 @media(max-width:500px){
     .content{
         max-width: 100%;
-        margin: 0 auto;
+        
         
     }
     .frameup{
         margin-left: 0px;
     }
     .frameup img{
-        max-width: 60%;
+        max-width: 250px;
     }
     .framedown{
-        margin: -100px 0 0 0px;
+        margin: -70px 0 0 0px;
     }
     .framedown img{
-        max-width: 60%;
+        max-width: 250px;
     }
     .name{
-        max-width: 30%;
-        margin: 0;
+        max-width: 20%;
+        position: absolute;
+    }
+    .main{
+        position: relative;
     }
     .mainimg{
-        max-width: 65%;
-        margin: 0;
+        max-width: 250px;
+        position: absolute;
+        top: 990px;
     }
     .disname{
-        margin: 0;
+        max-width: 20%;
+        position: absolute;
+        left: -200px;
+        top: 1350px;
+        
     }
     .description{
-        margin-top: -950px;
-        margin-left: 80px;
-        margin-bottom: 950px;
+        margin-top: -100px;
         
     }
     .one{
@@ -596,56 +614,62 @@ ul a{
         margin: 0 80px 0 -80px;
     }
     .desleftone{
-        width: 250px;
+        width: 100px;
         padding: 18px;
-        margin-right: 50px;
+        margin-right: 10px;
     }
     .desleftone h2{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
     .desrightoneb{
-        width: 252px;
-        height: 126px;
-        border: 2px solid #000;
-        margin-top: -131px;
+        width: 100px;
+        height: 50px;
+        border: 1px solid #000;
+        margin-top: -50px;
         margin-left: -2px;
+    }
+    .desrightone img{
+        width: 100px;
+        margin-top: 20px;
     }
     .two{
         display: flex;
         margin: 50px 80px 0 -80px;
     }
     .desrighttwo{
-        width: 250px;
+        width: 100px;
         padding: 18px;
-        margin-left: 75px;
+        margin-left: 10px;
     }
     
     .desrighttwo h2{
-        font-size: 18px;
+        font-size: 14px;
         font-weight: bold;
     }
     .deslefttwo img{
         margin: 5px 20px 0 -20px;
+        width: 100px;
     }
     .deslefttwob{
-        width: 252px;
-        height: 126px;
-        border: 2px solid #000;
-        margin-top: -131px;
+        width: 100px;
+        height: 50px;
+        border: 1px solid #000;
+        margin-top: -50px;
         margin-left: -2px;
     }
     .three{
         margin: 50px 80px 100px -80px;
     }
     .three img{
-        margin-left: 320px;
+        margin-left: 0px;
+        width: 100px;
     }
     .threeb{
-        width: 270px;
-        height: 125px;
-        border: 2px solid #000;
-        margin-top: -131px;
-        margin-left: 318px;
+        width: 100px;
+        height: 50px;
+        border: 1px solid #000;
+        margin-top: -50px;
+        margin-left: 0px;
     }
 }
