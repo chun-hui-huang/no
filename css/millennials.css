@@ -323,17 +323,68 @@ ul a{
 }
 /*max-width:1024*/
 @media(max-width:1024px){
-    .container p{
-        font-size: 16px;
+    .header .logo{
+        margin-left: 70px;
     }
-    .headersmall{
+    .header .logo img{
+        max-width: 70px;
+    }
+    ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+    ul a{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+    .concept{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    .drop_down{
         display: none;
+        position: relative;
+        position: absolute;
+        top:60px;
+        right: 250px;
+        border: #000 solid 1px;
+        background-color: #fff;
+    }
+    
+    .drop_down a{
+        display: block;
+        font-size: 14px;
+        color:#000;
+        text-decoration: none;
+        padding: 15px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .concept:hover .drop_down{
+        display: block;
+    }
+    .drop_down a:hover{
+        
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        background-color: #000;
+    }
+    .container p{
+        font-size: 12px;
     }
     .main{
         max-width: 75%;
         margin: 0 auto;
         margin-top: 100px;
-        margin-bottom: 100px;
+        margin-bottom: 200px;
         }
     .headersmall{
         display: none;
@@ -343,7 +394,7 @@ ul a{
     }
     .dialog{
         margin: -120px 150px 120px -150px;
-        max-width: 100%;
+        max-width: 150px;
     }
     .population{
         display: flex;
@@ -356,32 +407,32 @@ ul a{
     .populationpbackb{
         margin-top: 10px;
         margin-left: -120px;
-        width:90%;
-        border-left:170px solid transparent;
-        border-bottom:400px solid #145A7E;
+        width:250px;
+        border-left:150px solid transparent;
+        border-bottom:300px solid #145A7E;
     }
     .populationpbackw{
-        margin-top: -410px;
+        margin-top: -310px;
         margin-left: -130px;
-        width:90%;
-        border-left:170px solid transparent;
-        border-bottom:400px solid #000;
+        width:250px;
+        border-left:150px solid transparent;
+        border-bottom:300px solid #000;
         
     }
     .populationpback{
-        margin-top: -398px;
+        margin-top: -298px;
         margin-left: -128px;
-        width:89%;
-        border-left:170px solid transparent;
-        border-bottom:396px solid #fff;
+        width:246px;
+        border-left:150px solid transparent;
+        border-bottom:296px solid #fff;
         
     }
     .populationp p{
-        width: 310px;
+        width: 220px;
         
         line-height: 1.5em;
-        margin-top: -350px;
-        margin-left: 50px;
+        margin-top: -250px;
+        margin-left: 20px;
     }
     .drink{
         margin: 50px 0 0 0;
@@ -389,35 +440,27 @@ ul a{
     }
     .drink img{
         margin: 0 0 0 -150px;
+        width: 200px;
     }
-    .peopleback{
-        margin-top: 60px;
-        background-color: #FF7772;
-        width: 300px;
-        padding: 80px 18px;
-    }
+    
     .people{
-        margin-top: -165px;
+        margin-top: 5px;
         margin-left: 5px;
-        width: 300px;
+        width: 250px;
         padding: 18px;
         border: 2px solid #000;
         background-color: #fff;
+        box-shadow: -5px 5px #FF7772;
     }
-    .familyback{
-        margin-top: 100px;
-        margin-left: 310px;
-        background-color: #FF7772;
-        width: 304px;
-        padding: 90px 18px;
-    }
+    
     .family{
-        margin-top: -192px;
+        margin-top: 100px;
         margin-left: 300px;
-        width: 304px;
+        width: 250px;
         padding: 18px;
         border: 2px solid #000;
         background-color: #fff;
+        box-shadow: 5px 5px #FF7772;
     }
     .drink img{
         max-width: 250px;
@@ -427,7 +470,7 @@ ul a{
     .habitimg{
         max-width: 200px;
         margin-top: 100px;
-        margin-left: 400px;
+        margin-left: 100px;
     }
     .loop{
         display: flex;
@@ -455,55 +498,53 @@ ul a{
     }
     .loopleft p{
         width: 230px;
-        margin: -230px 0 0 35px;
+        margin: -200px 0 0 35px;
     }
     .looprightimgy{
         margin: 0px 0 0 -20px;
-        width:250px;
+        width:230px;
         border-left:80px solid transparent;
         border-bottom:254px solid #FF9D0D;
     }
     .looprightimgb{
         margin: -260px 0 0 -30px;
-        width:250px;
+        width:230px;
         border-left:80px solid transparent;
         border-bottom:254px solid #000;
     }
     .looprightimgw{
         margin: -252px 0 0 -28px;
-        width:246px;
+        width:226px;
         border-left:80px solid transparent;
         border-bottom:250px solid #fff;
     }
     .loopright img{
         margin: -225px 0 225px 55px;
         padding-top: -90px;
-        width: 220px;
+        width: 200px;
     }
     .looprighty{
-        margin: -150px 0 0 -105px;
-        width:335px;
+        margin: -130px 0 0 -105px;
+        width:320px;
         border-left:80px solid transparent;
         border-bottom:254px solid #FF9D0D;
     }
     .looprightb{
         margin: -260px 0 0 -115px;
-        width:335px;
+        width:320px;
         border-left:80px solid transparent;
         border-bottom:254px solid #000;
     }
     .looprightw{
         margin: -252px 0 0 -113px;
-        width:331px;
+        width:316px;
         border-left:80px solid transparent;
         border-bottom:250px solid #fff;
     }
-    .loopsmall{
-        display: none;
-    }
+    
     .loopright p{
         width: 250px;
-        margin-top: -200px;
+        margin-top: -180px;
     }
 
 
@@ -513,43 +554,22 @@ ul a{
 @media(max-width:768px){
     /*layout*/
         .container{
-            max-width: 700px;
+            max-width: 100%;
         }
-        .container p{
-            font-size: 16px;
-        }
-        .header{
-            padding: 10px 0;
+        
+        .header .logo img{
+            max-width: 50px;
             
         }
         .header .logo{
             margin-left: 20px;
         }
-        .header .logo img{
-            max-width: 70px;
-            
-        }
-        ul{
-            
+        .header ul{
             margin-right: 20px;
         }
-        ul a{
-            font-size: 16px;
-        }
-        .concept{
-            font-size: 16px;
-        }
         .drop_down{
-            top:49px;
-            right: 210px;
-        }
-        .drop_down a{
-            font-size: 16px;
-            padding: 10px 0px;
-        }
-        .drop_down a:hover{
-            font-size: 16px;
-            padding: 10px 0px;
+            top:50px;
+            right: 200px;
         }
         .footer{
             padding: 30px 20px;
@@ -561,7 +581,82 @@ ul a{
             max-width: 20px;
         }
     /*-------------------------------*/
-        
+    .people{
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: -5px 5px #FF7772;
+    }
+    
+    .family{
+        margin-top: 100px;
+        margin-left: 300px;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF7772;
+    }
+    .loop{
+        display: flex;
+        max-width: 100%;
+        margin-top: 300px;
+    }
+    
+    .looplefty{
+        display: none;
+    }
+    .loopleftb{
+        display: none;
+    }
+    .loopleftw{
+        display: none;
+    }
+    .loopleft p{
+        margin-top: 10px;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: -5px 5px #FF9D0D;
+    }
+    .looprightimgy{
+        display: none;
+    }
+    .looprightimgb{
+        display: none;
+    }
+    .looprightimgw{
+        display: none;
+    }
+    .loopright img{
+        padding: 18px 30px;
+        width: 50%;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF9D0D;
+    }
+    .looprighty{
+        display: none;
+    }
+    .looprightb{
+        display: none;
+    }
+    .looprightw{
+        display: none;
+    }
+    
+    .loopright p{
+        margin-top: 80px;
+        width: 200px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF9D0D;
+    }
         
     }
 
@@ -574,7 +669,7 @@ ul a{
         display:flex;
         justify-content: center;
         align-items: center;
-        margin-right: 70px;
+        margin-right: 20px;
     }
     ul a{
         font-size: 12px;

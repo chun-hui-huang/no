@@ -480,7 +480,7 @@ ul a{
     /*-------------------------------*/
         .content{
             max-width: 100%;
-            margin-left: ;
+            
         }
         .main{
             margin-top: 100px;
@@ -569,10 +569,8 @@ ul a{
         }
     }
 @media(max-width:500px){
-    .content{
-        max-width: 100%;
-        
-        
+    .header .logo img{
+        max-width: 50px;
     }
     .frameup{
         margin-left: 0px;
