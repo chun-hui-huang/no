@@ -270,22 +270,53 @@ ul a{
     .header{
         font-size: 12px;
         }
+        ul{
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 20px;
+        }
         ul a{
             font-size: 12px;
+            color:#fff;
+            text-decoration: none;
+            margin: 0 20px;
         }
         .concept{
             font-size: 12px;
+            color:#fff;
+            text-decoration: none;
+            margin: 0 20px;
+            cursor: pointer;
         }
         .drop_down{
+            display: none;
+            position: relative;
+            position: absolute;
             top:50px;
             right: 190px;
-
+            border: #000 solid 1px;
+            background-color: #fff;
         }
+        
         .drop_down a{
+            display: block;
             font-size: 12px;
+            color:#000;
+            text-decoration: none;
+            padding: 15px 0px;
+            align-items: center;
+            text-align: center;
         }
-        .drop_down a:hover{   
+        .concept:hover .drop_down{
+            display: block;
+        }
+        .drop_down a:hover{
+            
             font-size: 12px;
+            color:#fff;
+            text-decoration: none;
+            background-color: #000;
         }
     .text p{
         font-size: 10px;
