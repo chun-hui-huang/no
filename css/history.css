@@ -1031,7 +1031,7 @@ ul a{
         margin-top: 5px;
     }
     .oneleft{
-        width: 100%;
+        width: 50%;
         padding-left: 0;
         border-right: solid 0px #000;
         padding-bottom: 100px;
@@ -1048,8 +1048,8 @@ ul a{
     }
     
     .oneright{
-        max-width: 100%;
-        padding-right: 10%;
+        max-width: 50%;
+        margin-left: 10%;
         align-items: center;
     }
     .oneright img{
@@ -1078,9 +1078,9 @@ ul a{
         margin-top: 100px;
     }
     .twoleft{
-        width: 100%;
+        width: 50%;
         padding-left: 10%;
-        border-right: solid 2px #000;
+        border-right: solid 0px #000;
         padding-bottom: 10px;
     }
     
@@ -1109,7 +1109,7 @@ ul a{
         margin-left: 20%;
     }
     .tworight{
-        width: 100%;
+        width: 50%;
         padding-left: 10%;
     }
     .years3{
@@ -1121,9 +1121,9 @@ ul a{
         margin-top: 0px;
     }
     .threeleft{
-        width: 100%;
+        width: 50%;
         padding-left: 10%;
-        border-right: solid 1px #000;
+        border-right: solid 0px #000;
         padding-bottom: 0px;
     }
     .threeleft p{
@@ -1137,7 +1137,7 @@ ul a{
     }
     
     .threeright{
-        width: 100%;
+        width: 50%;
         padding-right: 10%;
         margin-top: 50px;
     }
@@ -1157,78 +1157,85 @@ ul a{
         background-color: #fff;
         box-shadow: #FF9D0D 5px 5px;
     }
-
+    .years4{
+        margin-top: 100px;
+    }
     .four{
         display: block;
         margin-bottom: 20px;
-        margin-top: 6px;
+        margin-top: 50px;
         
     }
     .fourleft{
-        width: 40%;
-        padding-right: 10%;
-        border-right: solid 2px #000;
-        padding-bottom: 130px;
-        align-items: center;
+        width: 50%;
+        padding-left: 10%;
+        border-right: solid 0px #000;
+        padding-bottom: 0px;
+        
     }
     .fourleft img{
-        max-width: 100px;
+        max-width: 80px;
         margin-top: 30px;
-        margin-left: 220px;
-        margin-bottom: 50px;
+        margin-left: 80px;
+        margin-bottom: 0px;
     }
     
     .fourleft p{
         padding: 18px;
         width: 130px;
-        border: 2px solid #000;
-        margin-left: 150px;
+        border: 1px solid #000;
+        margin-left: 0;
         margin-top: 103px;
         background-color: #fff;
         box-shadow: #2197AE -5px 5px;
+        margin-left: 0px;
     }
     .fourright{
-        width: 40%;
-        padding-left: 10%;
+        width: 50%;
+        padding-right: 10%;
     }
     
     .fourright p{
         padding: 18px;
-        border: 2px solid #000;
+        border: 1px solid #000;
         width: 250px;
         background-color: #fff;
-        margin-top: 210px;
+        margin-top: 100px;
         box-shadow: #2197AE 5px 5px;
+        margin-left: 50px;
+    }
+    .years5{
+        margin-top: 100px;
     }
     .five{
-        display: flex;
+        display: block;
         margin-bottom: 20px;
         margin-top: 5px;
     }
     .fiveleft{
-        width: 40%;
-        padding-right: 10%;
-        border-right: solid 2px #000;
-        padding-bottom: 200px;
+        width: 50%;
+        padding-left: 10%;
+        border-right: solid 0px #000;
+        padding-bottom: 0px;
     }
     
     .fiveleft p{
         padding: 18px;
         width: 200px;
-        border: #000 2px solid;
+        border: #000 1px solid;
         background-color: #fff;
-        margin-left: 70px;
-        margin-top: 155px;
+        margin-left: 0px;
+        margin-top: 80px;
         box-shadow: #FF7772 -5px 5px;
     }
     .fiveright{
-        width: 380px;
-        padding-left: 70px;
-        align-items: center;
+        width: 50%;
+        padding-right: 10%;
     }
     .fiveright img{
-        max-width: 100px;
-        margin-left: 50px;
+        margin-top: 50px;
+        max-width: 80px;
+        margin-left: 50%;
         margin-bottom: 50px;
     }
     
@@ -1260,56 +1267,40 @@ ul a{
         box-shadow: #FF9D0D 5px 5px;
     }
     .six{
-        display: flex;
+        display: block;
         margin-bottom: 150px;
     }
     .sixleftbacky{
-        margin: 100px 60px 0 100px;
-        width:230px;
-        border-right:60px solid transparent;
-        border-top:194px solid #FF9D0D;
+        display: none;
     }
     .sixleftbackw{
-        margin: -200px 60px 0 106px;
-        width:230px;
-        border-right:60px solid transparent;
-        border-top:194px solid #000;
+        display: none;
     }
     .sixleftback{
-        margin-top: -192px;
-        margin-left: 108px;
-        width:226px;
-        border-right:60px solid transparent;
-        border-top:190px solid #fff;
+        display: none;
     }
     .sixleft p{
+        padding: 18px;
+        border: #000 1px solid;
         width: 205px;
-        margin-top: -138px;
+        margin-top: 138px;
         margin-left: 128px;
     }
     .sixrightbacky{
-        margin: 100px 60px 0 -100px;
-        width:230px;
-        border-left:60px solid transparent;
-        border-bottom:194px solid #FF9D0D;
+        display: none;
     }
     .sixrightbackw{
-        margin: -200px 60px 0 -106px;
-        width:230px;
-        border-left:60px solid transparent;
-        border-bottom:194px solid #000;
+        display: none;
     }
     .sixrightback{
-        margin-top: -192px;
-        margin-left: -104px;
-        width:226px;
-        border-left:60px solid transparent;
-        border-bottom:190px solid #fff;
+        display: none;
     }
     .sixright p{
+        padding: 18px;
+        border: 1px solid #000;
         width: 200px;
-        margin-top: -138px;
-        margin-left: -35px;
+        margin-top: 138px;
+        margin-left: 35px;
     }
     .years{
         border: 1px solid #000;
