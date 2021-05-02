@@ -241,6 +241,7 @@ ul a{
 /*max-width:768*/
 @media(max-width:768px){
     /*layout*/
+        
         .content{
             max-width: 80%;
             margin: 0 auto;
@@ -253,10 +254,8 @@ ul a{
             margin-left: 20px;
         }
         .drop_down{
-
             top:50px;
             right: 200px;
-
         }
         .text{
             padding: 80px;
@@ -268,6 +267,29 @@ ul a{
     }
     /*max-width:500*/
 @media(max-width:500px){
+    .header{
+        font-size: 12px;
+        }
+        ul a{
+            font-size: 12px;
+        }
+        .concept{
+            font-size: 12px;
+        }
+        .drop_down{
+            top:50px;
+            right: 190px;
+
+        }
+        .drop_down a{
+            font-size: 12px;
+        }
+        .drop_down a:hover{   
+            font-size: 12px;
+        }
+    .text p{
+        font-size: 10px;
+    }
     .content{
         max-width: 100%;
     }
