@@ -770,7 +770,7 @@ ul a{
         
     }
     .drink img{
-        margin:0 0 0 -60%;
+        margin:50px 0 0 -60%;
         width: 170px;
     }
     .drinkimg{
@@ -801,7 +801,7 @@ ul a{
     }
     .habitimg{
         width: 150px;
-        margin-top: 100px;
+        margin-top: 250px;
         margin-left: 15%;
     }
     .loop{
@@ -820,8 +820,8 @@ ul a{
         display: none;
     }
     .loopleft p{
-        width: 40%;
-        margin: 0 0 0 45%;
+        width: 50%;
+        margin: 0 0 0 35%;
         box-shadow: #FF9D0D 5px 5px;
     }
     .looprightimgy{
@@ -852,5 +852,12 @@ ul a{
         width: 38%;
         margin-top: 50px;
         margin-left: 40%;
+    }
+}
+/*max-width:360*/
+@media(max-width:360px){
+    .drink img{
+        margin:0 0 0 -80%;
+        width: 170px;
     }
 }

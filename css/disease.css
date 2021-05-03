@@ -293,7 +293,61 @@ ul a{
 /*max-width:1024*/
 @media(max-width:1024px){
     .container p{
-        font-size: 16px;
+        font-size: 12px;
+    }
+    .header .logo{
+        margin-left: 70px;
+    }
+    .header .logo img{
+        max-width: 70px;
+    }
+    ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+    ul a{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+    .concept{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    .drop_down{
+        display: none;
+        position: relative;
+        position: absolute;
+        top:60px;
+        right: 250px;
+        border: #000 solid 1px;
+        background-color: #fff;
+    }
+    
+    .drop_down a{
+        display: block;
+        font-size: 14px;
+        color:#000;
+        text-decoration: none;
+        padding: 15px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .concept:hover .drop_down{
+        display: block;
+    }
+    .drop_down a:hover{
+        
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        background-color: #000;
     }
     .content{
         max-width: 700px;
@@ -301,25 +355,25 @@ ul a{
     }
     .oneleftupy{
         margin-left: 20px;
-        width:280px;
+        width:240px;
         border-right:80px solid transparent;
-        border-top:265px solid #FF9D0D;
+        border-top:245px solid #FF9D0D;
     }
     .oneleftupb{
-        margin: -275px 0 0 27px;
-        width:280px;
+        margin: -255px 0 0 27px;
+        width:240px;
         border-right:80px solid transparent;
-        border-top:265px solid #000;
+        border-top:245px solid #000;
     }
     .oneleftupw{
-        margin: -263px 0 0 29px;
-        width:276px;
+        margin: -243px 0 0 29px;
+        width:236px;
         border-right:80px solid transparent;
-        border-top:261px solid #fff;
+        border-top:241px solid #fff;
     }
     .oneleftup p{
-        margin: -200px 0 0 50px;
-        width: 280px;
+        margin: -190px 0 0 60px;
+        width: 200px;
     }
     .oneleftdown{
         margin: 40% 0 0 0;
@@ -328,22 +382,22 @@ ul a{
         margin-left: 20px;
         width:200px;
         border-right:80px solid transparent;
-        border-top:300px solid #FF9D0D;
+        border-top:245px solid #FF9D0D;
     }
     .oneleftdownb{
-        margin: -308px 0 0 27px;
+        margin: -253px 0 0 27px;
         width:200px;
         border-right:80px solid transparent;
-        border-top:300px solid #000;
+        border-top:245px solid #000;
     }
     .oneleftdownw{
-        margin: -298px 0 0 29px;
+        margin: -243px 0 0 29px;
         width:196px;
         border-right:80px solid transparent;
-        border-top:296px solid #fff;
+        border-top:241px solid #fff;
     }
     .oneleftdown p{
-        margin: -250px 0 0 50px;
+        margin: -200px 0 0 50px;
         width: 180px;
     }
     .oneright img{
@@ -355,26 +409,26 @@ ul a{
         margin: 20% 0 0 0;
     }
     .onerightdowny{
-        margin: -100px 0 0 -80px;
+        margin: -100px 0 0 -20px;
         width:260px;
         border-left:90px solid transparent;
-        border-bottom:342px solid #FF9D0D;
+        border-bottom:262px solid #FF9D0D;
     }
     .onerightdownb{
-        margin: -350px 0 0 -87px;
+        margin: -270px 0 0 -25px;
         width:260px;
         border-left:90px solid transparent;
-        border-bottom:342px solid #000;
+        border-bottom:262px solid #000;
     }
     .onerightdownw{
-        margin: -340px 0 0 -85px;
+        margin: -260px 0 0 -23px;
         width:256px;
         border-left:90px solid transparent;
-        border-bottom:338px solid #fff;
+        border-bottom:258px solid #fff;
     }
     .onerightdown p{
-        margin: -250px 0 0 0;
-        width: 255px;
+        margin: -200px 0 0 80px;
+        width: 200px;
     }
     .twolefty{
         margin-left: 20px;
