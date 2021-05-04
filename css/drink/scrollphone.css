@@ -317,7 +317,61 @@ ul a{
 /*max-width:1024*/
 @media(max-width:1024px){
     .container p{
-        font-size: 16px;
+        font-size: 12px;
+    }
+    .header .logo{
+        margin-left: 70px;
+    }
+    .header .logo img{
+        max-width: 70px;
+    }
+    ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+    ul a{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+    .concept{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    .drop_down{
+        display: none;
+        position: relative;
+        position: absolute;
+        top:60px;
+        right: 250px;
+        border: #000 solid 1px;
+        background-color: #fff;
+    }
+    
+    .drop_down a{
+        display: block;
+        font-size: 14px;
+        color:#000;
+        text-decoration: none;
+        padding: 15px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .concept:hover .drop_down{
+        display: block;
+    }
+    .drop_down a:hover{
+        
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        background-color: #000;
     }
     .content{
         margin-top: 80px;
@@ -495,40 +549,21 @@ ul a{
             max-width: 700px;
         }
         .container p{
-            font-size: 16px;
+            font-size: 12px;
         }
-        .header{
-            padding: 10px 0;
+        .header .logo img{
+            max-width: 50px;
             
         }
         .header .logo{
             margin-left: 20px;
         }
-        .header .logo img{
-            max-width: 70px;
-            
-        }
-        ul{
-            
+        .header ul{
             margin-right: 20px;
         }
-        ul a{
-            font-size: 16px;
-        }
-        .concept{
-            font-size: 16px;
-        }
         .drop_down{
-            top:49px;
-            right: 210px;
-        }
-        .drop_down a{
-            font-size: 16px;
-            padding: 10px 0px;
-        }
-        .drop_down a:hover{
-            font-size: 16px;
-            padding: 10px 0px;
+            top:50px;
+            right: 200px;
         }
         .footer{
             padding: 30px 20px;
@@ -619,15 +654,10 @@ ul a{
             margin-left: 261px;
         }
     }
-/*-------------------------------*/
-/*max-width:368*/
-@media(max-width:368px){
-    /*layout*/
-    
+/*max-width:500*/
+@media(max-width:500px){
     .container p{
         font-size: 10px;
-        line-height: 1.5em;
-        
     }
     .header{
         background-color: #000;
@@ -690,113 +720,203 @@ ul a{
         text-decoration: none;
         background-color: #000;
     }
+/*------------*/
     .content{
-        margin-top: 80px;
-        margin-left: 10px;
-        margin-bottom: -80px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.main{
+    margin-top: 150px;
+}
+.frameup{
+    margin-left: 0px;
+}
+.frameup img{
+    max-width: 250px;
+}
+.framedown{
+    margin: -70px 0 0 0px;
+}
+.framedown img{
+    max-width: 250px;
+}
+.frame img{
+    margin-left: 50px;
+}
+.name{
+    max-width: 80px;
+    margin: -480px 0 480px 20px;
+}
+.mainimg{
+    max-width: 250px;
+    margin: -506px 0 506px 50px;
+}
+.disname{
+    width: 70px;
+    margin: -520px 0 520px 250px;
+}
+.one{
+    display: flex;
+    margin-left: 0px;
+}
+.description{
+    margin-top: -500px;
+    
+}
+.desleftone{
+    width: 150px;
+    padding: 0px;
+    margin-right: 50px;
+}
+.desleftone h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desrightone img{
+    width: 100px;
+    border: 1px solid #000;
+}
+.desrightoneb{
+display: none;
+}
+.two{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.desrighttwo{
+    width: 150px;
+    padding: 0px;
+    margin-left: 50px;
+}
+.desrighttwo h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.deslefttwo img{
+    max-width: 100px;
+    border: 1px solid #000;
+}
+.deslefttwob{
+    display: none;
+}
+.three{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.three img{
+    width: 100px;
+    margin-left: 200px;
+    border: 1px solid #000;
+}
+.threeb{
+    display: none;
+}
+    
+
+}
+/*max-width:360*/
+@media(max-width:360px){
+
+    /*------------*/
+    .content{
+        max-width: 100%;
+        margin: 0 auto;
+        margin-left: -20px;
+        padding: 0 2%;
     }
     .main{
-        margin-bottom: 100px;
+        margin-top: 150px;
+        margin-left: 2%;
+        
+    }
+    .frameup{
+        margin-left: 0px;
+    }
+    .frameup img{
+        max-width: 250px;
     }
     .framedown{
-        margin: -60px 0 0 0px;
+        margin: -70px 0 0 0px;
+    }
+    .framedown img{
+        max-width: 250px;
     }
     .frame img{
-        width: 250px;
-    }
-    .mainimg{
-        width: 250px;
-        margin: -480px 0px 480px 0px;
+        margin-left: 50px;
     }
     .name{
-        width: 70px;
-        margin: -460px 20px 460px -20px;
+        max-width: 80px;
+        margin: -480px 0 480px 20px;
+    }
+    .mainimg{
+        max-width: 250px;
+        margin: -506px 0 506px 50px;
     }
     .disname{
-        width:70px;
-        margin: -550px 0 550px 200px;
-    }
-    .description{
-        margin-top: -550px;
-        
-        margin-bottom: 550px;
-        
+        width: 70px;
+        margin: -520px 0 520px 250px;
     }
     .one{
         display: flex;
-        
+        margin-left: 0px;
+    }
+    .description{
+        margin-top: -500px;
+        margin-left: 50px;
+        margin-right: -80px;
     }
     .desleftone{
-        width: px;
-        padding: 5px;
-        margin-right: 20px;
+        width: 150px;
+        padding: 0px;
+        margin-right: 50px;
     }
     .desleftone h2{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
         margin-bottom: 5px;
     }
     .desrightone img{
-        max-width: 85px;
-        margin-top: 40px;
+        width: 100px;
+        border: 1px solid #000;
     }
     .desrightoneb{
-        width: 85px;
-        height: 43px;
-        border: 1px solid #000;
-        margin-top: -47px;
-        margin-left: -1px;
+    display: none;
+    }
+    .two{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 0px;
     }
     .desrighttwo{
-        width: 85px;
+        width: 150px;
         padding: 0px;
-        margin-left: 5px;
+        margin-left: 50px;
     }
     .desrighttwo h2{
-        font-size: 12px;
+        font-size: 14px;
         font-weight: bold;
-        margin-top: -10px;
     }
     .deslefttwo img{
-        max-width: 85px;
-        margin-left: 6px;
-        
+        max-width: 100px;
+        border: 1px solid #000;
     }
     .deslefttwob{
-        width: 85px;
-        height: 43px;
-        border: 1px solid #000;
-        margin-top: -47px;
-        margin-left: 5px;
+        display: none;
     }
-    
+    .three{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
     .three img{
-        margin-left: 150px;
-        max-width: 84px;
+        width: 100px;
+        margin-left: 250px;
+        border: 1px solid #000;
     }
     .threeb{
-        width: 83px;
-        height: 42px;
-        border: 1px solid #000;
-        margin-top: -46px;
-        margin-left: 149px;
+        display: none;
     }
-    .frame img{
-        max-width: 600px;
+    
     }
-    .page{
-        margin-top: -400px;
-        margin-bottom: 400px;
-
-        
-    }
-    .footer{
-        background-color: #BCBCBC;
-        display: flex;
-        justify-content: space-between;
-        padding: 20px 20px;
-        margin-top: -300px;
-        margin-bottom: -300px;
-    }
-}
-

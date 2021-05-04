@@ -319,6 +319,60 @@ ul a{
     .container p{
         font-size: 12px;
     }
+    .header .logo{
+        margin-left: 70px;
+    }
+    .header .logo img{
+        max-width: 70px;
+    }
+    ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+    ul a{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+    .concept{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    .drop_down{
+        display: none;
+        position: relative;
+        position: absolute;
+        top:60px;
+        right: 250px;
+        border: #000 solid 1px;
+        background-color: #fff;
+    }
+    
+    .drop_down a{
+        display: block;
+        font-size: 14px;
+        color:#000;
+        text-decoration: none;
+        padding: 15px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .concept:hover .drop_down{
+        display: block;
+    }
+    .drop_down a:hover{
+        
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        background-color: #000;
+    }
     .content{
         margin-top: 80px;
         margin-left: 150px;
@@ -569,9 +623,71 @@ ul a{
         }
     }
 @media(max-width:500px){
+    .container p{
+        font-size: 10px;
+    }
+    .header{
+        background-color: #000;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        font-size: 12px;
+    }
+    .header .logo{
+        margin-left: 20px;
+    }
     .header .logo img{
         max-width: 50px;
     }
+    ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+    ul a{
+        font-size: 12px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .concept{
+        font-size: 12px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 10px;
+        cursor: pointer;
+    }
+    .drop_down{
+        display: none;
+        position: relative;
+        position: absolute;
+        top:48px;
+        right: 145px;
+        border: #000 solid 1px;
+        background-color: #fff;
+    }
+    
+    .drop_down a{
+        display: block;
+        font-size: 12px;
+        color:#000;
+        text-decoration: none;
+        padding: 15px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .concept:hover .drop_down{
+        display: block;
+    }
+    .drop_down a:hover{
+        
+        font-size: 12px;
+        color:#fff;
+        text-decoration: none;
+        background-color: #000;
+    }
+/*------------*/
     .frameup{
         margin-left: 0px;
     }
@@ -669,5 +785,108 @@ ul a{
         border: 1px solid #000;
         margin-top: -50px;
         margin-left: 0px;
+    }
+}
+@media(max-width:360px){
+    .frameup{
+        margin-left: 0px;
+    }
+    .frameup img{
+        max-width: 250px;
+        margin-left: -100px;
+    }
+    .framedown{
+        margin: -70px 0 0 0px;
+    }
+    .framedown img{
+        max-width: 250px;
+        margin-left: -100px;
+    }
+    .name{
+        max-width: 80px;
+        position: absolute;
+        top: 650px;
+        left: -100px;
+    }
+    .main{
+        position: relative;
+    }
+    .mainimg{
+        max-width: 250px;
+        position: absolute;
+        top: 978px;
+        left:-100px;
+    }
+    .disname{
+        max-width: 80px;
+        position: absolute;
+        left: -300px;
+        top: 1350px;
+        
+    }
+    .description{
+        margin-top: -100px;
+        margin-left: -150px;
+        
+    }
+    .one{
+        display: flex;
+        margin: 0;
+    }
+    .desleftone{
+        width: 150px;
+        padding: 18px;
+        margin-right: 20px;
+    }
+    .desleftone h2{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .desrightoneb{
+        display: none;
+    }
+    .desrightone img{
+        width: 100px;
+        margin-top: 20px;
+        border: 1px solid #000;
+    }
+    .two{
+        display: flex;
+        margin: 50px 0 0 15px;
+    }
+    .desrighttwo{
+        width: 150px;
+        padding: 18px;
+        margin-left: 20px;
+    }
+    
+    .desrighttwo h2{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .deslefttwo img{
+        margin: 10px 0;
+        width: 100px;
+        border: 1px solid #000;
+    }
+    .deslefttwob{
+        display: none;
+    }
+    .three{
+        margin: 50px 0 100px 0;
+    }
+    .three img{
+        margin-left: 200px;
+        width: 100px;
+        border: 1px solid #000;
+    }
+    .threeb{
+        display: none;
+    }
+    .page{
+        margin-top: -1000px;
+        margin-bottom: 1000px;
+        padding-top: -1000px;
+        padding-bottom: -1000px;
     }
 }

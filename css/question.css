@@ -360,22 +360,52 @@ button:hover{
         margin: 0 0 0 30%;
     }
     button{
-        background-image: url(../img/question/button.png);
+        background-image: url(../img/question/buttonsm.png);
         width: 120px;
         height: 59px;
         border: none;
         outline: none;
         background-color: transparent;
-        margin: 30px 220px;
+        margin: 30px 150px;
         cursor: pointer;
     }
     button:hover{
-        background-image: url(../img/question/buttonhover.png);
+        background-image: url(../img/question/buttonhoversm.png);
         width: 120px;
         height: 59px;
         border: none;
         outline: none;
         background-color: transparent;
-        margin: 30px 220px;
+        margin: 30px 150px;
+    }
+}
+/*max-width:360*/
+@media(max-width:360px){
+    .container{
+        max-width: 100%;
+        font-size: 10px;
+    }
+    .content{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    button{
+        background-image: url(../img/question/buttonsm.png);
+        width: 120px;
+        height: 59px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin: 30px 110px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-image: url(../img/question/buttonhoversm.png);
+        width: 120px;
+        height: 59px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin: 30px 110px;
     }
 }
