@@ -174,17 +174,10 @@ ul a{
 }
 .mainimg{
     max-width: 650px;
-    margin: -1073px 0 1073px 80px;
+    margin: -1053px 0 1053px 80px;
 }
-.diseasename{
-    writing-mode: vertical-rl;
-    margin : -1200px -500px 1200px 500px;
-    padding: 50px 20px;
-    border: 2px solid #000;
-}
-.diseasename p{
-    font-size: 36px;
-    font-weight:500;
+.disname{
+    margin: -1250px 0 1250px 480px;
 }
 .lineup{
     margin-top: 35px;
@@ -331,9 +324,62 @@ ul a{
 /*--------------------*/
 /*max-width:1024*/
 @media(max-width:1024px){
+    .header .logo{
+        margin-left: 70px;
+    }
+    .header .logo img{
+        max-width: 70px;
+    }
+    ul{
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 70px;
+    }
+    ul a{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+    }
+    .concept{
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        margin: 0 20px;
+        cursor: pointer;
+    }
+    .drop_down{
+        display: none;
+        position: relative;
+        position: absolute;
+        top:60px;
+        right: 250px;
+        border: #000 solid 1px;
+        background-color: #fff;
+    }
+    
+    .drop_down a{
+        display: block;
+        font-size: 14px;
+        color:#000;
+        text-decoration: none;
+        padding: 15px 0px;
+        align-items: center;
+        text-align: center;
+    }
+    .concept:hover .drop_down{
+        display: block;
+    }
+    .drop_down a:hover{
+        
+        font-size: 14px;
+        color:#fff;
+        text-decoration: none;
+        background-color: #000;
+    }
     .container p{
-        font-size: 16px;
-        line-height: 1.5em;
+        font-size: 12px;
     }
     .content{
         max-width: 700px;
@@ -359,7 +405,7 @@ ul a{
     }
     .mainimg{
         max-width: 580px;
-        margin: -884px 0 884px 80px;
+        margin: -866px 0 866px 80px;
     }
     .diseasename{
         writing-mode: vertical-rl;
@@ -436,126 +482,37 @@ ul a{
 
 }
 /*--------------------*/
-/*max-width:640*/
-@media(max-width:640px){
-    .content{
-        max-width: 600px;
-        margin: 0 auto;
-    }
-    .main{
-        margin-top: 150px;
-    }
-    .frame img{
-        max-width: 250px;
-    }
-    .frameleft{
-        margin-left: 100px;
-        margin-right: -80px;
-    }
-    .frameright{
-        margin-top: -150px;
-        margin-left: -20px;
-    }
-    .name{
-        max-width: 100px;
-        margin: -550px 0 550px 155px;
-    }
-    .mainimg{
-        max-width: 420px;
-        margin: -670px 0 670px 80px;
-    }
-    .diseasename{
-        writing-mode: vertical-rl;
-        margin : -800px -380px 800px 380px;
-        padding: 30px 15px;
-        border: 2px solid #000;
-    }
-    .diseasename p{
-        font-size: 24px;
-        font-weight:500;
-    }
-    .description{
-        margin-top: -650px;
-        margin-left: 80px;
-        margin-bottom: 650px;
-    }
-    .one{
-        display: flex;
-        margin-left: 0px;
-    }
-    .desleftone{
-        width: 180px;
-        padding: 18px;
-        margin-right: 50px;
-    }
-    .desleftone h2{
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 5px;
-    }
-    .desrightone img{
-        margin-top: 15px;
-        max-width: 180px;
-    }
-    .desrightoneb{
-        width: 180px;
-        height: 90px;
-        border: 2px solid #000;
-        margin-top: -95px;
-        margin-left: -2px;
-    }
-    .two{
-        display: flex;
-        margin-top: 50px;
-        margin-left: 20px;
-    }
-    
-    .desrighttwo{
-        width: 180px;
-        padding: 18px;
-        margin-left: 50px;
-    }
-    .desrighttwo h2{
-        font-size: 18px;
-        font-weight: bold;
-    }
-    .deslefttwo{
-        margin-top: 15px;
-    }
-    .deslefttwo img{
-        max-width: 180px;
-    }
-    .deslefttwob{
-        width: 180px;
-        height: 90px;
-        border: 2px solid #000;
-        margin-top: -95px;
-        margin-left: -2px;
-    }
-    .three{
-        margin-top: 50px;
-       
-    }
-    .three img{
-        margin-left: 245px;
-        margin-top: 20px;
-        width: 200px;
-    }
-    .threeb{
-        width: 180px;
-        height: 93px;
-        border: 2px solid #000;
-        margin-top: -97px;
-        margin-left: 262px;
-    }
-    .page{
-        margin-top: -500px;
-        margin-left: 20px;
-        margin-right: -20px;
+/*max-width:768*/
+@media(max-width:768px){
+    .header .logo img{
+        max-width: 50px;
         
+    }
+    .header .logo{
+        margin-left: 20px;
+    }
+    .header ul{
+        margin-right: 20px;
+    }
+    .drop_down{
+        top:50px;
+        right: 200px;
+    }
+    .footer{
+        padding: 30px 20px;
+    }
+    .footer a{
+        margin: 0 5px;
     }
     .footer img{
         max-width: 20px;
+    }
+}
+/*--------------------*/
+/*max-width:500*/
+@media(max-width:500px){
+    .container p{
+        font-size: 10px;
     }
     .header{
         background-color: #000;
@@ -565,41 +522,43 @@ ul a{
         font-size: 12px;
     }
     .header .logo{
-        margin-left: 40px;
+        margin-left: 20px;
     }
     .header .logo img{
-        max-width: 70px;
+        max-width: 50px;
     }
     ul{
         display:flex;
         justify-content: center;
         align-items: center;
-        margin-right: 40px;
+        margin-right: 20px;
     }
     ul a{
-        font-size: 16px;
+        font-size: 12px;
         color:#fff;
         text-decoration: none;
-        margin: 0 20px;
+        margin: 0 10px;
     }
     .concept{
-        font-size: 16px;
+        font-size: 12px;
         color:#fff;
         text-decoration: none;
-        margin: 0 20px;
+        margin: 0 10px;
         cursor: pointer;
     }
     .drop_down{
         display: none;
+        position: relative;
         position: absolute;
-        top:60px;
-        right: 290px;
+        top:48px;
+        right: 145px;
         border: #000 solid 1px;
         background-color: #fff;
     }
+    
     .drop_down a{
         display: block;
-        font-size: 16px;
+        font-size: 12px;
         color:#000;
         text-decoration: none;
         padding: 15px 0px;
@@ -611,10 +570,195 @@ ul a{
     }
     .drop_down a:hover{
         
-        font-size: 20px;
+        font-size: 12px;
         color:#fff;
         text-decoration: none;
         background-color: #000;
     }
+/*------------*/
+.content{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.main{
+    margin-top: 150px;
+}
+.frame img{
+    max-width: 150px;
+}
+.frameleft{
+    margin-left: 80px;
+    margin-right: 0px;
+}
+.frameright{
+    margin-top: -150px;
+    margin-left: -80px;
+}
+.name{
+    max-width: 80px;
+    margin: -400px 0 400px 50px;
+}
+.mainimg{
+    max-width: 300px;
+    margin: -492px 0 492px 80px;
+}
+.disname{
+    width: 80px;
+    margin: -600px 0 600px 300px;
+}
+.one{
+    display: flex;
+    margin-left: 0px;
+}
+.description{
+    margin-top: -500px;
+    
+}
+.desleftone{
+    width: 150px;
+    padding: 0px;
+    margin-right: 50px;
+}
+.desleftone h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desrightone img{
+    width: 100px;
+    border: 1px solid #000;
+}
+.desrightoneb{
+display: none;
+}
+.two{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.desrighttwo{
+    width: 150px;
+    padding: 0px;
+    margin-left: 50px;
+}
+.desrighttwo h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.deslefttwo img{
+    max-width: 100px;
+    border: 1px solid #000;
+}
+.deslefttwob{
+    display: none;
+}
+.three{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.three img{
+    width: 100px;
+    margin-left: 200px;
+    border: 1px solid #000;
+}
+.threeb{
+    display: none;
+}
+}
+/*--------------------*/
+/*max-width:360*/
+@media(max-width:360px){
 
+/*------------*/
+.content{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+}
+.main{
+    margin-top: 150px;
+}
+.frame img{
+    max-width: 150px;
+}
+.frameleft{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.frameright{
+    margin-top: -150px;
+    margin-left: -30px;
+}
+.name{
+    max-width: 80px;
+    margin: -400px 0 400px 10px;
+}
+.mainimg{
+    max-width: 300px;
+    margin: -492px 0 492px 0px;
+}
+.disname{
+    width: 80px;
+    margin: -600px 0 600px 180px;
+}
+.one{
+    display: flex;
+    margin-left: 0px;
+}
+.description{
+    margin-top: -500px;
+    margin-left: 0px;
+    
+}
+.desleftone{
+    width: 150px;
+    padding: 0px;
+    margin-right: 50px;
+}
+.desleftone h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desrightone img{
+    width: 100px;
+    border: 1px solid #000;
+}
+.desrightoneb{
+display: none;
+}
+.two{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.desrighttwo{
+    width: 150px;
+    padding: 0px;
+    margin-left: 50px;
+}
+.desrighttwo h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.deslefttwo img{
+    max-width: 100px;
+    border: 1px solid #000;
+}
+.deslefttwob{
+    display: none;
+}
+.three{
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.three img{
+    width: 100px;
+    margin-left: 170px;
+    border: 1px solid #000;
+}
+.threeb{
+    display: none;
+}
 }
