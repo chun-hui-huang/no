@@ -745,13 +745,55 @@ ul a{
         margin-left: 20px;
     }
     .chartimg{
-        margin: -250px 0 250px 0px;
-        max-width: 200px;
+        margin: -240px 0 240px 0px;
+        max-width: 230px;
             
     }
-    .dialog{
-        margin: -100px 150px 100px -150px;
-        max-width: 130px;
+    .people{
+        margin-top: 5px;
+        margin-left: 5%;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: -5px 5px #FF7772;
+    }
+    .family{
+        margin-top: 100px;
+        margin-left: 50%;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF7772;
+    }
+    .drink img{
+        max-width: 250px;
+        height: auto;
+        padding-left: 80%;
+    }
+    .loopleft p{
+        margin-top: 10px;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: -5px 5px #FF9D0D;
+    }
+    .loopright img{
+        padding: 18px 30px;
+        width: 50%;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF9D0D;
+    }
+    .loopright p{
+        margin-top: 80px;
+        width: 200px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF9D0D;
     }
 }
 /*max-width:500*/
@@ -845,7 +887,7 @@ ul a{
     }
     .chartimg{
         margin: -550px 0 550px 5%;
-        width: 150px;
+        width: 190px;
         
     }
     .populationpbackb{

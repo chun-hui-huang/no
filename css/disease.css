@@ -663,133 +663,121 @@ ul a{
 /*-------------------------------*/
 /*max-width:630*/
 @media(max-width:630px){
+    .content{
+        max-width: 100%;
+        margin: 0 auto;
+        padding: 0 10%;
+        margin-top: 100px;
+    }
+    .one{
+        display: block;
+        margin-top: 0%;
+        margin-bottom: 0%;
+    }
+    .oneleftup{
+        margin: 0 0 0 0;
+    }
     .oneleftupy{
-        margin-left: 0px;
-        width:180px;
-        border-right:80px solid transparent;
-        border-top:245px solid #FF9D0D;
+        display: none;
     }
     .oneleftupb{
-        margin: -255px 0 0 7px;
-        width:180px;
-        border-right:80px solid transparent;
-        border-top:245px solid #000;
+        display: none;
     }
     .oneleftupw{
-        margin: -243px 0 0 9px;
-        width:176px;
-        border-right:80px solid transparent;
-        border-top:241px solid #fff;
+        display: none;
     }
     .oneleftup p{
-        margin: -190px 0 0 40px;
-        width: 150px;
+        margin: 50px 0 0 0px;
+        width: 40%;
+        padding: 18px;
+        border: 1px solid #000;
+        box-shadow: #FF9D0D -5px 5px;
     }
     .oneleftdown{
-        margin: 40% 0 0 0;
+        margin: 0 0 0 0;
     }
     .oneleftdowny{
-        margin-left: 0px;
-        width:150px;
-        border-right:80px solid transparent;
-        border-top:255px solid #FF9D0D;
+        display: none;
     }
     .oneleftdownb{
-        margin: -263px 0 0 7px;
-        width:150px;
-        border-right:80px solid transparent;
-        border-top:255px solid #000;
+        display: none;;
     }
     .oneleftdownw{
-        margin: -253px 0 0 9px;
-        width:146px;
-        border-right:80px solid transparent;
-        border-top:251px solid #fff;
+        display: none;
     }
     .oneleftdown p{
-        margin: -210px 0 0 40px;
-        width: 120px;
+        margin: 50px 0 0 30%;
+        width: 55%;
+        padding: 18px;
+        border: 1px solid #000;
+        box-shadow: #FF9D0D 5px 5px;
     }
     .oneright img{
-        margin: -10px 0 10px -20px;
-        max-width: 150px;
-        position: relative;
+        margin: -450px 0 450px 60%;
+        max-width: 20%;
     }
     .onerightdown{
-        margin: 20% 0 0 0;
+        margin: 0 0 0 0;
     }
     .onerightdowny{
-        margin: -100px 0 0 -50px;
-        width:190px;
-        border-left:90px solid transparent;
-        border-bottom:272px solid #FF9D0D;
+        display: none;
     }
     .onerightdownb{
-        margin: -280px 0 0 -55px;
-        width:190px;
-        border-left:90px solid transparent;
-        border-bottom:272px solid #000;
+        display: none;
     }
     .onerightdownw{
-        margin: -270px 0 0 -53px;
-        width:186px;
-        border-left:90px solid transparent;
-        border-bottom:268px solid #fff;
+        display: none;
     }
     .onerightdown p{
-        margin: -190px 0 0 40px;
-        width: 165px;
+        margin: -100px 0 0 0px;
+        width: 40%;
+        padding: 18px;
+        border: 1px solid #000;
+        box-shadow: #FF9D0D -5px 5px;
     }
     .oneright img{
         width: 120px;
     }
+    .two{
+        display: block;
+        margin-top: 250px;
+        margin-bottom: 200px;
+    }
     .twolefty{
-        margin-left: 0px;
-        width:190px;
-        border-right:80px solid transparent;
-        border-top:270px solid #145A7E;
+        display: none;
     }
     .twoleftb{
-        margin: -280px 0 0 7px;
-        width:190px;
-        border-right:80px solid transparent;
-        border-top:270px solid #000;
+        display: none;
     }
     .twoleftw{
-        margin: -268px 0 0 9px;
-        width:186px;
-        border-right:80px solid transparent;
-        border-top:266px solid #fff;
+        display: none;
     }
     .twoleft p{
-        margin: -210px 0 0 40px;
-        width: 170px;
+        margin: 0px 0 0 3%;
+        width: 40%;
+        padding: 18px;
+        border: 1px solid #000;
+        box-shadow: #145A7E -5px 5px;
     }
     .tworight img{
-        margin: -200px 0 60px 80px;
-        max-width: 130px;
+        margin: -350px 0 350px 60%;
+        max-width: 80px;
     }
     .tworighty{
-        margin: 0 0 0 -60px;
-        width:200px;
-        border-left:80px solid transparent;
-        border-bottom:270px solid #145A7E;
+        display: none;
     }
     .tworightb{
-        margin: -280px 0 0 -67px;
-        width:200px;
-        border-left:80px solid transparent;
-        border-bottom:270px solid #000;
+        display: none;
     }
     .tworightw{
-        margin: -268px 0 0 -65px;
-        width:196px;
-        border-left:80px solid transparent;
-        border-bottom:266px solid #fff;
+        display: none;
     }
     .tworight p{
-        margin: -190px 0 0 20px;
-        width: 160px;
+        margin: -50px 0 0 30%;
+        width: 55%;
+        padding: 18px;
+        border: 1px solid #000;
+        box-shadow: #145A7E 5px 5px;
     }
     .tworight img{
         width: 100px;
