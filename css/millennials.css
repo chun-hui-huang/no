@@ -572,6 +572,12 @@ ul a{
             max-width: 20px;
         }
     /*-------------------------------*/
+    .main{
+        max-width: 75%;
+        margin: 0 auto;
+        margin-top: 100px;
+        margin-bottom: 200px;
+    }
     .people{
         margin-top: 5px;
         margin-left: 5px;
@@ -642,6 +648,7 @@ ul a{
     
     .loopright p{
         margin-top: 80px;
+        margin-left: 0;
         width: 200px;
         padding: 18px;
         border: 1px solid #000;
@@ -650,7 +657,103 @@ ul a{
     }
         
     }
-
+/*max-width:670*/
+@media(max-width:670px){
+    .main{
+        padding: 0 5%;
+    }
+    .people{
+        margin-top: 5px;
+        margin-left: 5%;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: -5px 5px #FF7772;
+    }
+    .family{
+        margin-top: 100px;
+        margin-left: 50%;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF7772;
+    }
+    .drink img{
+        max-width: 250px;
+        height: auto;
+        padding-left: 80%;
+    }
+    .loopleft p{
+        margin-top: 10px;
+        width: 220px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: -5px 5px #FF9D0D;
+    }
+    .loopright img{
+        padding: 18px 30px;
+        width: 50%;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF9D0D;
+    }
+    .loopright p{
+        margin-top: 80px;
+        width: 200px;
+        padding: 18px;
+        border: 1px solid #000;
+        background-color: #fff;
+        box-shadow: 5px 5px #FF9D0D;
+    }
+}
+/*max-width:600*/
+@media(max-width:600px){
+    .populationimg{
+        width:160px;
+    }
+    .populationpbackb{
+        margin-top: 10px;
+        margin-left: -120px;
+        width:210px;
+        border-left:150px solid transparent;
+        border-bottom:300px solid #145A7E;
+    }
+    .populationpbackw{
+        margin-top: -310px;
+        margin-left: -130px;
+        width:210px;
+        border-left:150px solid transparent;
+        border-bottom:300px solid #000;
+        
+    }
+    .populationpback{
+        margin-top: -299px;
+        margin-left: -129px;
+        width:208px;
+        border-left:150px solid transparent;
+        border-bottom:298px solid #fff;
+        
+    }
+    .populationp p{
+        width: 200px;
+        height: auto;
+        line-height: 1.5em;
+        margin-top: -280px;
+        margin-left: 20px;
+    }
+    .chartimg{
+        margin: -250px 0 250px 0px;
+        max-width: 200px;
+            
+    }
+    .dialog{
+        margin: -100px 150px 100px -150px;
+        max-width: 130px;
+    }
+}
 /*max-width:500*/
 @media(max-width:500px){
     .container p{
