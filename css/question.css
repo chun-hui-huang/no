@@ -155,7 +155,7 @@ ul a{
 }
 /*-------------*/
 .content{
-    max-width: 70％;
+    max-width: 60%;
     margin: 0 auto;
 }
 .title{
@@ -240,17 +240,38 @@ button:hover{
         text-decoration: none;
         background-color: #000;
     }
+    
     .container p{
         font-size: 12px;
     }
     .content{
         max-width: 70%;
         margin: 0 auto;
+        align-items: center;
     }
     .title{
-        margin: 0;
+        margin: 0 0 50px 180px;
         width: 200px;
-        align-items: center;
+        
+    }
+    button{
+        background-image: url(../img/question/buttonsm.png);
+        width: 120px;
+        height: 59px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin: 30px 210px;
+        cursor: pointer;
+    }
+    button:hover{
+        background-image: url(../img/question/buttonhoversm.png);
+        width: 120px;
+        height: 59px;
+        border: none;
+        outline: none;
+        background-color: transparent;
+        margin: 30px 210px;
     }
 }
 /*-------------------------------*/
@@ -261,7 +282,7 @@ button:hover{
             max-width: 100%;
         }
         .content{
-            max-width: 100%;
+            max-width: 500px;
             margin: 0 auto;
         }
         .header .logo img{
@@ -286,6 +307,30 @@ button:hover{
         }
         .footer img{
             max-width: 20px;
+        }
+        .title{
+            margin: 0 0 50px 155px;
+            width: 180px;
+            
+        }
+        button{
+            background-image: url(../img/question/buttonsm.png);
+            width: 120px;
+            height: 59px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            margin: 30px 190px;
+            cursor: pointer;
+        }
+        button:hover{
+            background-image: url(../img/question/buttonhoversm.png);
+            width: 120px;
+            height: 59px;
+            border: none;
+            outline: none;
+            background-color: transparent;
+            margin: 30px 190px;
         }
     }
 /*-------------------------------*/
