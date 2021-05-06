@@ -407,29 +407,35 @@ ul a{
 /*--------------------*/
 /*max-width:768*/
 @media(max-width:768px){
-    .header .logo img{
-        max-width: 50px;
-        
-    }
-    .header .logo{
-        margin-left: 20px;
-    }
-    .header ul{
-        margin-right: 20px;
-    }
-    .drop_down{
-        top:50px;
-        right: 200px;
-    }
-    .footer{
-        padding: 30px 20px;
-    }
-    .footer a{
-        margin: 0 5px;
-    }
-    .footer img{
-        max-width: 20px;
-    }
+    /*layout*/
+.container{
+    max-width: 100%;
+}
+
+.header .logo img{
+    max-width: 50px;
+    
+}
+.header .logo{
+    margin-left: 20px;
+}
+.header ul{
+    margin-right: 20px;
+}
+.drop_down{
+    top:50px;
+    right: 200px;
+}
+.footer{
+    padding: 30px 20px;
+}
+.footer a{
+    margin: 0 5px;
+}
+.footer img{
+    max-width: 20px;
+}
+/*-------------------------------*/
     .content{
         max-width: 80%;
     }
