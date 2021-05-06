@@ -57,7 +57,8 @@ table {
 /*layout*/
 .container{
     margin: 0 auto;
-    max-width: 90%;
+    max-width: 100%;
+    
 }
 .container p{
     font-size: 18px;
@@ -100,7 +101,7 @@ ul a{
     position: relative;
     position: absolute;
     top:75px;
-    right: 290px;
+    right: 310px;
     border: #000 solid 1px;
     background-color: #fff;
 }
@@ -155,42 +156,22 @@ ul a{
 }
 /*-------------*/
 .content{
-    max-width: 700px;
+    max-width: 60%;
     margin: 0 auto;
-    
-}
-.frameup{
-    margin-left: 0px;
-}
-.frameup img{
-    width: 650px;
-}
-.framedown{
-    margin: -100px 0 0 0px;
-}
-.framedown img{
-    width: 650px;
-}
-.name{
-    width: 180px;
-    margin: -1000px 0 1000px 0;
+    padding: 0 10%;
 }
 .mainimg{
-    max-width: 600px;
-    margin: -1090px 0 1090px 0;
-}
-.disname{
-    margin: -1250px 0 1250px 480px;
+    max-width: 100%;
+
 }
 .description{
-    margin-top: -950px;
-    margin-left: 80px;
-    margin-bottom: 950px;
+    margin-top: 150px;
+    margin-bottom: 150px;
     
 }
 .one{
     display: flex;
-    margin: 0 80px 0 -80px;
+    margin-left: 20px;
 }
 .desleftone{
     width: 250px;
@@ -201,93 +182,86 @@ ul a{
     font-size: 18px;
     font-weight: bold;
 }
-.desrightoneb{
-    width: 252px;
-    height: 126px;
+.desrightone img{
     border: 2px solid #000;
-    margin-top: -131px;
-    margin-left: -2px;
 }
+
 .two{
     display: flex;
-    margin: 50px 80px 0 -80px;
+    margin-top: 50px;
+    margin-left: 20px;
 }
 .desrighttwo{
     width: 250px;
     padding: 18px;
     margin-left: 75px;
 }
-
 .desrighttwo h2{
     font-size: 18px;
     font-weight: bold;
 }
 .deslefttwo img{
-    margin: 5px 20px 0 -20px;
-}
-.deslefttwob{
-    width: 252px;
-    height: 126px;
     border: 2px solid #000;
-    margin-top: -131px;
-    margin-left: -2px;
 }
 .three{
-    margin: 50px 80px 100px -80px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 355px;
 }
 .three img{
-    margin-left: 320px;
-}
-.threeb{
-    width: 270px;
-    height: 125px;
+    width: 250px;
     border: 2px solid #000;
-    margin-top: -131px;
-    margin-left: 318px;
+    
 }
+
 .page{
-    margin-top: -700px;
+    margin-top: 100px;
     
 }
 .arrowlast a{
     color: #000;
+    
+    display: flex;
 }
-.arrowlast a:hover{
+.arrowlast a p{
     color: #BCBCBC;
+    font-size: 16px;
+    margin: 0 5px;
+    
 }
 .last{
-    margin: 3px 13px 3px 3px;
+    margin: 3px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 10px 17.3px 10px 0;
-    border-color: transparent #000 transparent transparent;
+    border-color: transparent #BCBCBC transparent transparent;
 
-}
-.last:hover{
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 10px 17.3px 10px 0;
-    border-color: transparent transparent transparent #BCBCBC;
 }
 .arrownext a{
     color: #000;
+    
+    display: flex;
 }
 .arrownext a:hover{
     color: #BCBCBC;
 }
 .next:hover{
-    
+    margin: 3px;
     width: 0;
     height: 0;
     border-style: solid;
     border-width: 10px 0 10px 17.3px;
-    border-color: transparent transparent transparent #BCBCBC;
+    border-color: transparent #BCBCBC transparent transparent;
 }
-
+.arrownext a p{
+    
+    font-size: 16px;
+    margin: 0 5px;
+    
+}
 .next{
-    margin: 3px 13px 3px 3px;
+    margin: 3px;
     width: 0;
     height: 0;
     border-style: solid;
@@ -313,12 +287,9 @@ ul a{
     background-color: black;
     border-radius: 5px;
 }
-
+/*--------------------*/
 /*max-width:1024*/
 @media(max-width:1024px){
-    .container p{
-        font-size: 12px;
-    }
     .header .logo{
         margin-left: 70px;
     }
@@ -373,28 +344,19 @@ ul a{
         text-decoration: none;
         background-color: #000;
     }
+    .container p{
+        font-size: 12px;
+    }
     .content{
-        margin-top: 80px;
-        margin-left: 150px;
+        max-width: 100%;
+        margin: 0 auto;
     }
-    .main{
-        
-        margin-bottom: 400px;
-    }
-    .frame img{
-        width: 500px;
-    }
-    .mainimg{
-        width: 500px;
-        margin: -548px 155px 548px -155px;
-    }
-    .name{
-        width: 150px;
-        margin: -1000px 20px 1000px -20px;
-    }
-    .disname{
-        width: 120px;
-        margin: -650px 0 650px 400px;
+    
+    
+    
+    .one{
+        display: flex;
+        margin-left: 20px;
     }
     .desleftone{
         width: 200px;
@@ -402,20 +364,18 @@ ul a{
         margin-right: 50px;
     }
     .desleftone h2{
-        font-size: 16px;
+        font-size: 18px;
         font-weight: bold;
         margin-bottom: 5px;
     }
     .desrightone img{
         max-width: 200px;
-        margin-top: 20px;
     }
-    .desrightoneb{
-        width: 200px;
-        height: 94px;
-        border: 2px solid #000;
-        margin-top: -98px;
-        margin-left: -2px;
+    
+    .two{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 20px;
     }
     .desrighttwo{
         width: 200px;
@@ -428,200 +388,124 @@ ul a{
     }
     .deslefttwo img{
         max-width: 200px;
-        margin-left: 6px;
     }
-    .deslefttwob{
-        width: 200px;
-        height: 93px;
-        border: 2px solid #000;
-        margin-top: -98px;
-        margin-left: 4px;
+    
+    .three{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: 310px;
+
     }
     .three img{
-        margin-left: 286px;
-        max-width: 204px;
+        max-width: 200px;
+        
     }
-    .threeb{
-        width: 200px;
-        height: 93px;
-        border: 2px solid #000;
-        margin-top: -98px;
-        margin-left: 285px;
+    
+
+}
+/*--------------------*/
+/*max-width:768*/
+@media(max-width:768px){
+    .header .logo img{
+        max-width: 50px;
+        
+    }
+    .header .logo{
+        margin-left: 20px;
+    }
+    .header ul{
+        margin-right: 20px;
+    }
+    .drop_down{
+        top:50px;
+        right: 200px;
     }
     .footer{
         padding: 30px 20px;
     }
-}
-/*-------------------------------*/
-/*max-width:909*/
-@media(max-width:909px){
-    .frame img{
-        width: 500px;
+    .footer a{
+        margin: 0 5px;
     }
-    .mainimg{
-        width: 500px;
-        margin: -910px 0px 910px 0px;
-    }
-    .name{
-        width: 150px;
-        margin: -800px 20px 800px -20px;
-    }
-    .disname{
-        width: 120px;
-        margin: -1050px 0 1050px 400px;
+    .footer img{
+        max-width: 20px;
     }
     .description{
-        margin-top: -1150px;
-        margin-left: 80px;
-        margin-bottom: 1150px;
-        
+        padding:0 5%;
+    }
+    .one{
+        display: flex;
+        margin-left: 20px;
+    }
+    .desleftone{
+        width: 150px;
+        padding: 18px;
+        margin-right: 50px;
+    }
+    .desleftone h2{
+        font-size: 14px;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .desrightone img{
+        max-width: 150px;
+        border: 1px solid #000;
     }
     
-}
-/*-------------------------------*/
-/*max-width:768*/
-@media(max-width:768px){
-    /*layout*/
-        .container{
-            max-width: 100%;
-            margin: 0 auto;
-        }
-        .container p{
-            font-size: 12px;
-        }
-        .header{
-            padding: 10px 0;
-            
-        }
-        .header .logo{
-            margin-left: 20px;
-        }
-        .header .logo img{
-            max-width: 70px;
-            
-        }
-        ul{
-            
-            margin-right: 20px;
-        }
-        ul a{
-            font-size: 12px;
-        }
-        .concept{
-            font-size: 12px;
-        }
-        .drop_down{
-            top:49px;
-            right: 185px;
-        }
-        .drop_down a{
-            font-size: 12px;
-            padding: 10px 0px;
-        }
-        .drop_down a:hover{
-            font-size: 12px;
-            padding: 10px 0px;
-        }
-        .footer{
-            padding: 30px 20px;
-        }
-        .footer a{
-            margin: 0 5px;
-        }
-        .footer img{
-            max-width: 20px;
-        }
-    /*-------------------------------*/
-        .content{
-            max-width: 100%;
-            
-        }
-        .main{
-            margin-top: 100px;
-            position: relative;
-        }
-        .frame img{
-            max-width: 400px;
-        }
-        .framedown img{
-            margin-top: 10%;
-        }
-        .mainimg{
-            max-width: 400px;
-            position: absolute;
-            top: 1054px;
-        }
-        .name{
-            width: 100px;
-            position: absolute;
-            top: 700px;
-        }
-        .disname{
-            max-width: 100px;
-            position: absolute;
-            top: 1500px;
-            left: -50px;
-            
-        }
-        .description{
-            margin-top: 100px;
-        }
-        .desleftone{
-            width: 200px;
-            padding: 18px;
-            margin-right: 40px;
-        }
-        .desleftone h2{
-            font-size: 14px;
-            font-weight: bold;
-        }
-        .desrightoneb{
-            width: 190px;
-            height: 93px;
-            border: 2px solid #000;
-            margin-top: px;
-            margin-left: -2px;
-        }
-        .desrightone img{
-            width: 200px;
-            margin-top: -1px;
-        }
-        .desrighttwo{
-            width: 220px;
-            padding: 18px;
-            margin-left: 40px;
-        }
-        .desrighttwo h2{
-            font-size: 14px;
-            font-weight: bold;
-            margin-bottom: 5px;
-        }
-        .deslefttwo img{
-            margin: 5px 10px 0 -10px;
-            width: 230px;
-        }
-        .deslefttwob{
-            width: 190px;
-            height: 93px;
-            border: 2px solid #000;
-            margin-top: px;
-            margin-left: -2px;
-        }
-        .three{
-            margin: 50px 180px 100px 0px;
-        }
-        .three img{
-            width: 200px;
-            margin-left: 55%;
-        }
-        .threeb{
-            width: 198px;
-            height: 91px;
-            border: 2px solid #000;
-            margin-top: px;
-            margin-left: 55%;
-        }
+    .two{
+        display: flex;
+        margin-top: 50px;
+        margin-left: 20px;
     }
+    .desrighttwo{
+        width: 150px;
+        padding: 18px;
+        margin-left: 75px;
+    }
+    .desrighttwo h2{
+        font-size: 14px;
+        font-weight: bold;
+    }
+    .deslefttwo img{
+        max-width: 150px;
+        border: 1px solid #000;
+    }
+    
+    .three{
+        margin-top: 50px;
+        margin-bottom: 100px;
+    margin-left: 255px;
+
+    }
+    .three img{
+        max-width: 150px;
+        border: 1px solid #000;
+    }
+}
+/*--------------------*/
+/*max-width:640*/
+@media(max-width:640px){
+    .description{
+        padding: 0;
+    }
+    .description img{
+        max-width: 130px;
+    }
+}
+/*--------------------*/
+/*max-width:540*/
+@media(max-width:540px){
+    .description{
+        padding:0 5%;
+    }
+    .three{
+        margin-top: 50px;
+        margin-bottom: 100px;
+        margin-left: 240px;
+
+    }
+}
+/*--------------------*/
+/*max-width:500*/
 @media(max-width:500px){
     .container p{
         font-size: 10px;
@@ -688,205 +572,145 @@ ul a{
         background-color: #000;
     }
 /*------------*/
-    .frameup{
-        margin-left: 0px;
-    }
-    .frameup img{
-        max-width: 250px;
-    }
-    .framedown{
-        margin: -70px 0 0 0px;
-    }
-    .framedown img{
-        max-width: 250px;
-    }
-    .name{
-        max-width: 20%;
-        position: absolute;
-    }
-    .main{
-        position: relative;
-    }
-    .mainimg{
-        max-width: 250px;
-        position: absolute;
-        top: 990px;
-    }
-    .disname{
-        max-width: 20%;
-        position: absolute;
-        left: -200px;
-        top: 1350px;
-        
-    }
-    .description{
-        margin-top: -100px;
-        
-    }
-    .one{
-        display: flex;
-        margin: 0 80px 0 -80px;
-    }
-    .desleftone{
-        width: 100px;
-        padding: 18px;
-        margin-right: 10px;
-    }
-    .desleftone h2{
-        font-size: 14px;
-        font-weight: bold;
-    }
-    .desrightoneb{
-        width: 100px;
-        height: 50px;
-        border: 1px solid #000;
-        margin-top: -50px;
-        margin-left: -2px;
-    }
-    .desrightone img{
-        width: 100px;
-        margin-top: 20px;
-    }
-    .two{
-        display: flex;
-        margin: 50px 80px 0 -80px;
-    }
-    .desrighttwo{
-        width: 100px;
-        padding: 18px;
-        margin-left: 10px;
-    }
-    
-    .desrighttwo h2{
-        font-size: 14px;
-        font-weight: bold;
-    }
-    .deslefttwo img{
-        margin: 5px 20px 0 -20px;
-        width: 100px;
-    }
-    .deslefttwob{
-        width: 100px;
-        height: 50px;
-        border: 1px solid #000;
-        margin-top: -50px;
-        margin-left: -2px;
-    }
-    .three{
-        margin: 50px 80px 100px -80px;
-    }
-    .three img{
-        margin-left: 0px;
-        width: 100px;
-    }
-    .threeb{
-        width: 100px;
-        height: 50px;
-        border: 1px solid #000;
-        margin-top: -50px;
-        margin-left: 0px;
-    }
+.content{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 0 10%;
 }
-@media(max-width:360px){
-    .frameup{
-        margin-left: 0px;
-    }
-    .frameup img{
-        max-width: 250px;
-        margin-left: -100px;
-    }
-    .framedown{
-        margin: -70px 0 0 0px;
-    }
-    .framedown img{
-        max-width: 250px;
-        margin-left: -100px;
-    }
-    .name{
-        max-width: 80px;
-        position: absolute;
-        top: 650px;
-        left: -100px;
-    }
-    .main{
-        position: relative;
-    }
-    .mainimg{
-        max-width: 250px;
-        position: absolute;
-        top: 978px;
-        left:-100px;
-    }
-    .disname{
-        max-width: 80px;
-        position: absolute;
-        left: -300px;
-        top: 1350px;
-        
-    }
-    .description{
-        margin-top: -100px;
-        margin-left: -150px;
-        
-    }
-    .one{
-        display: flex;
-        margin: 0;
-    }
-    .desleftone{
-        width: 150px;
-        padding: 18px;
-        margin-right: 20px;
-    }
-    .desleftone h2{
-        font-size: 14px;
-        font-weight: bold;
-    }
-    .desrightoneb{
-        display: none;
-    }
-    .desrightone img{
-        width: 100px;
-        margin-top: 20px;
-        border: 1px solid #000;
-    }
-    .two{
-        display: flex;
-        margin: 50px 0 0 15px;
-    }
-    .desrighttwo{
-        width: 150px;
-        padding: 18px;
-        margin-left: 20px;
-    }
+
+.mainimg{
+    max-width: 100%;
+}
+
+.one{
+    display: flex;
+    margin-left: 0px;
+}
+
+.desleftone{
+    width: 150px;
+    padding: 0px;
+    margin-right: 50px;
+}
+.desleftone h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desrightone img{
+    width: 100px;
+    border: 1px solid #000;
+}
+.desrightoneb{
+display: none;
+}
+.two{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 0px;
+}
+.desrighttwo{
+    width: 150px;
+    padding: 0px;
+    margin-left: 50px;
+}
+.desrighttwo h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.deslefttwo img{
+    max-width: 100px;
+    border: 1px solid #000;
+}
+.deslefttwob{
+    display: none;
+}
+.three{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+}
+.three img{
+    width: 100px;
     
-    .desrighttwo h2{
-        font-size: 14px;
-        font-weight: bold;
+    border: 1px solid #000;
+}
+.threeb{
+    display: none;
+}
+}
+/*--------------------*/
+/*max-width:360*/
+@media(max-width:360px){
+    .container{
+        margin: 0 auto;
+        max-width: 100%;
     }
-    .deslefttwo img{
-        margin: 10px 0;
-        width: 100px;
-        border: 1px solid #000;
-    }
-    .deslefttwob{
-        display: none;
-    }
-    .three{
-        margin: 50px 0 100px 0;
-    }
-    .three img{
-        margin-left: 200px;
-        width: 100px;
-        border: 1px solid #000;
-    }
-    .threeb{
-        display: none;
-    }
-    .page{
-        margin-top: -1000px;
-        margin-bottom: 1000px;
-        padding-top: -1000px;
-        padding-bottom: -1000px;
-    }
+/*------------*/
+.content{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10%;
+}
+
+.one{
+    display: flex;
+    margin-left: 0px;
+}
+.description{
+    margin-top: 150px;
+    margin-left: 0px;
+}
+.desleftone{
+    width: 150px;
+    padding: 0px;
+    margin-right: 10px;
+}
+.desleftone h2{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.desrightone img{
+    width: 100px;
+    border: 1px solid #000;
+}
+.desrightoneb{
+display: none;
+}
+.two{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.desrighttwo{
+    width: 150px;
+    padding: 0px;
+    margin-left: 10px;
+}
+.desrighttwo h2{
+    font-size: 14px;
+    font-weight: bold;
+}
+.deslefttwo img{
+    max-width: 100px;
+    border: 1px solid #000;
+}
+.deslefttwob{
+    display: none;
+}
+.three{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    position: absolute;
+    right: 35px;
+}
+.three img{
+    width: 100px;
+    margin-left: 0px;
+    border: 1px solid #000;
+}
+.threeb{
+    display: none;
+}
 }
